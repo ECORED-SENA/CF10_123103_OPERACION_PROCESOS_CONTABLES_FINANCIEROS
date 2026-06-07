@@ -628,10 +628,6 @@
               )
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
-
-
-
-
 </template>
 
 <script>
