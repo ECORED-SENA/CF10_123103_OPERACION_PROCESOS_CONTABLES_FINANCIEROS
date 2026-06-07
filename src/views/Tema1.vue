@@ -358,7 +358,7 @@
               p.banner-text.mb-1 Si el resultado es cercano a 1, el desempeño fue similar al esperado; si es menor, el costo real fue más alto que el estándar; y si es mayor, el resultado puede interpretarse como favorable desde la perspectiva del costo.
             .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-11
               img.img-fluid.p-4(src="@/assets/curso/tema1/img15.svg" alt="" style="width: 350px")
-        .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch.mb-4
       .col-11.col-md-12.col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .rounded-3.overflow-hidden.h-100
           .row.g-0.align-items-stretch.h-100
@@ -572,36 +572,36 @@
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_1.svg', alt='Icono Afecta', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Período u objeto revisado
                         p Mes, lote, servicio, orden o centro de costo analizado.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_2.svg', alt='Icono Causas', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Referente comparado
                         p Histórico, presupuesto o estándar.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_3.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Valor base y valor real
                         P Cifra esperada y cifra obtenida.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_4.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Magnitud de la desviación
                         P Valor absoluto y porcentaje.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_5.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Causa probable inicial
                         P Mercado, operación, registro o metodología.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_6.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Evidencia revisada
                         P Requisiciones, nómina, reportes, comprobantes y hoja de costeo.
                       .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                        img(src='@/assets/curso/tema1/tarjeta05_7.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta05_7.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                         h4.card-title.text-center.mb-4 Recomendación preliminar
                         P Ajuste, validación adicional, corrección o seguimiento.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                     figure
-                      img(src='@/assets/curso/tema1/img23.png', alt='Imagen decorativa', style="max-width: 250px", data-aos="zoom-in").m-auto
+                      img(src='@/assets/curso/tema1/img23.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel
     p(data-aos="fade-left") La organización sistemática de esta información contribuye a mejorar la trazabilidad del análisis y facilita posteriores procesos de revisión, control y toma de decisiones.
     .row.justify-content-center.align-items-stretch.mb-3.g-0.bg-color-2(data-aos="fade-left")
