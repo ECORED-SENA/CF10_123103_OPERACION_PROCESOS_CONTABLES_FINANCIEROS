@@ -42,32 +42,32 @@
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 La comparación entre costo histórico y costo presupuestado permite identificar desviaciones. La forma más sencilla de calcularla es la siguiente:
               .formula-destacada.text-center
                 p.mb-0 #[b Desviación = Costo real - Costo presupuestado]          
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-4
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-4
               img.img-fluid.p-4(src="@/assets/curso/tema1/img3.svg" alt="" style="width: 250px")
     p Si el resultado es positivo, el costo real estuvo por encima del presupuesto; si es negativo, estuvo por debajo. Aunque esta operación básica puede parecer simple, su valor radica en que abre la puerta al análisis posterior. No basta con identificar que hubo una diferencia; también es necesario determinar:          
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5.mb-3(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Por qué ocurrió.
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si era previsible.
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si se repite en distintos períodos.
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_4.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si afecta la rentabilidad o la eficiencia del proceso.
@@ -155,49 +155,49 @@
         p.bg-color-5.p-4.rounded-4  El cálculo estándar se apoya en dos variables básicas:
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Cantidad estándar.
             li.d-flex
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Precio o tarifa estándar.
         p.mb-0 En materiales, por ejemplo, el estándar combina la cantidad que debería consumirse por unidad con el precio que la empresa espera pagar. En mano de obra, combina el tiempo estándar con la tarifa estándar. En costos indirectos de fabricación (CIF), puede apoyarse en tasas estándar calculadas sobre una base normal de actividad.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 El costo estándar total de una unidad puede expresarse de la siguiente manera:
               .formula-destacada.text-center
                 p.mb-0.bg-color-6.p-3 #[b Costo estándar unitario = (Cantidad estándar × Precio estándar) + (Tiempo estándar × Tarifa estándar) + CIF estándar por unidad]          
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-7
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-7
               img.img-fluid.p-4(src="@/assets/curso/tema1/img8.svg" alt="" style="width: 350px")
     p.mb-5(data-aos="fade-left") Este enfoque permite determinar, antes de producir, cuál sería el costo esperado bajo condiciones normales. Si la producción real se aparta del estándar, la empresa puede analizar si la diferencia proviene del precio, de la cantidad, del tiempo o del comportamiento de los costos indirectos (Hansen, 2007; Cuevas Villegas, 2010). 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 Los márgenes esperados se relacionan con la diferencia entre el ingreso previsto y el costo estándar o presupuestado. En términos sencillos:
               .formula-destacada.text-center
                 p.mb-0.bg-color-6.p-3 #[b Margen esperado = Precio de venta esperado - Costo esperado]          
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-8
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-8
               img.img-fluid.p-4(src="@/assets/curso/tema1/img9.svg" alt="" style="width: 350px")
     p(data-aos="fade-left") Si una empresa espera vender una unidad en $25.000 y el costo estándar unitario es $18.000, el margen esperado será de $7.000. Esta referencia resulta importante porque la variación del costo no afecta únicamente la contabilidad del proceso, sino también el margen y, por tanto, la rentabilidad esperada del producto o servicio.
     P(data-aos="fade-left") Un pequeño aumento del costo estándar puede reducir significativamente el margen cuando la empresa trabaja con precios estrechos o en contextos de alta competencia (García Colín, 2014). El análisis de variaciones frente al estándar suele desagregarse en:
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5.mb-3(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación de precio.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación de cantidad.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación de CIF.
@@ -206,19 +206,19 @@
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 Una forma básica de expresar estas variaciones es la siguiente:
               .formula-destacada
                 p.mb-0.bg-color-6.p-1
                   ul.lista-ul.color-vineta-custom.mb-0
                     li.d-flex.mt-3
-                      i.fas.fa-check-circle.me-3
+                      i.fas.fa-check-circle.me-2
                       p.mb-0.fw-bold Variación de precio = (Precio real - Precio estándar) × Cantidad real
                     li.d-flex
-                      i.fas.fa-check-circle.me-3
+                      i.fas.fa-check-circle.me-2
                       p.mb-0.fw-bold Variación de cantidad = (Cantidad real - Cantidad estándar) × Precio estándar
               p.banner-text.mt-3 Si la variación incrementa el costo, se interpreta como desfavorable; si lo reduce, se considera favorable.
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-9
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-9
               img.img-fluid.p-4(src="@/assets/curso/tema1/img10.svg" alt="" style="width: 250px")
     p(data-aos="fade-left") Por ejemplo, si el material debía costar $5.000 por unidad de medida y terminó costando $5.300, existe una variación de precio desfavorable. De igual manera, si la empresa debía consumir 2 kilogramos por lote y consumió 1,9 kilogramos, existe una variación favorable de cantidad.
     p(data-aos="fade-right") Esta clasificación ayuda a separar causas y evita que todas las diferencias se interpreten como si tuvieran el mismo origen (Hansen, 2007; Horngren, 2012).
@@ -294,17 +294,17 @@
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5.mb-3(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación total.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación unitaria.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Variación porcentual.
@@ -313,21 +313,21 @@
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 Sus fórmulas básicas son las siguientes:
               .formula-destacada
                 p.mb-0.bg-color-6.p-1
                   ul.lista-ul.color-vineta-custom.mb-0
                     li.d-flex.mt-3
-                      i.fas.fa-check-circle.me-3
+                      i.fas.fa-check-circle.me-2
                       p.mb-0.fw-bold Variación total = Costo real total - Costo base total
                     li.d-flex
-                      i.fas.fa-check-circle.me-3
+                      i.fas.fa-check-circle.me-2
                       p.mb-0.fw-bold Variación unitaria = Costo real unitario - Costo base unitario
                     li.d-flex
-                      i.fas.fa-check-circle.me-3
+                      i.fas.fa-check-circle.me-2
                       p.mb-0.fw-bold Variación porcentual = (Variación total / Costo base total) × 100
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-10
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-10
               img.img-fluid(src="@/assets/curso/tema1/img13.svg" alt="" style="width: 200px")
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
@@ -351,12 +351,12 @@
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-3 Un índice sencillo sería el siguiente:
               .formula-destacada.text-center
                 p.mb-3.bg-color-6.p-3 #[b Índice de eficiencia de costo = Costo estándar / Costo real]          
               p.banner-text.mb-1 Si el resultado es cercano a 1, el desempeño fue similar al esperado; si es menor, el costo real fue más alto que el estándar; y si es mayor, el resultado puede interpretarse como favorable desde la perspectiva del costo.
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-11
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-11
               img.img-fluid.p-4(src="@/assets/curso/tema1/img15.svg" alt="" style="width: 350px")
     .row.justify-content-center.align-items-stretch.mb-4
       .col-11.col-md-12.col-lg-9.order-2.order-lg-1(data-aos="fade-right")
@@ -431,17 +431,17 @@
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5.mb-3(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta04_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Mes a mes.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Trimestre a trimestre.
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta04_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Frente al mismo período del año anterior.

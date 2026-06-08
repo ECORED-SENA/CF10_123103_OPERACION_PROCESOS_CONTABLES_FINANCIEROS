@@ -193,12 +193,12 @@
       .col-12.col-lg-10
         .rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
-            .col-12.col-md-7.col-lg-8.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
               p.banner-text.mb-4 La fórmula general puede expresarse de la siguiente manera:
               .formula-destacada.text-center
                 p.mb-3.bg-color-6.p-3 #[b Tasa de asignación = Costos indirectos acumulados / Base de actividad]
               p.banner-text.mb-4 Si un centro de maquinado acumula $ 18.000.000 en CIF y utiliza 6.000 horas máquina como base, la tasa será de $ 3.000 por hora. Sin embargo, la revisión también debe preguntarse si esas 6.000 horas corresponden a capacidad normal, actividad real o estimaciones sin soporte. La validez de la tasa no depende únicamente de la división, sino de la coherencia de los datos que la componen.
-            .col-12.col-md-5.col-lg-4.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-15
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-15
               img.img-fluid(src="@/assets/curso/tema2/img6.svg" alt="" style="width: 500px")
     p(data-aos="fade-left") En la práctica, esta verificación también permite <b>detectar tasas obsoletas o bases de reparto mal seleccionadas.</b> Una empresa puede continuar aplicando una tasa definida hace varios períodos, aunque su nivel de actividad, sus costos indirectos o su tecnología hayan cambiado.
     p(data-aos="fade-left") De igual manera, puede distribuir costos de mantenimiento con base en unidades producidas cuando el consumo real depende de horas máquina. Por esta razón, revisar centros y tasas constituye una actividad fundamental antes de concluir que el costo de una línea o de un producto es razonable (Hansen, 2007).

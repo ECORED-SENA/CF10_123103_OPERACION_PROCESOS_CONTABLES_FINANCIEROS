@@ -157,17 +157,17 @@
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Valor monetario afectado. 
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Porcentaje de desviación. 
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Frecuencia con que se repite el problema. 
@@ -344,22 +344,22 @@
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_06_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si los hallazgos se registran de manera consistente. 
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_06_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si las recomendaciones se atienden. 
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_06_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si las bases de asignación continúan siendo válidas. 
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
-        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
+        .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_06_4.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Si los reportes conservan suficiente evidencia de respaldo. 
