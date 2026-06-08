@@ -105,19 +105,19 @@
           .row.justify-content-center.align-items-center
             .col-lg-12.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-xl-4 col-lg-6")
-                .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                   p.card-title.text-center.mb-4 Requisiciones.
-                .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                   p.card-title.text-center.mb-4 Tarjetas de tiempo.
-                .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                   p.card-title.text-center.mb-4 Nómina.
-                .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                   p.card-title.text-center.mb-4 Comprobantes contables.
-                .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                   p.card-title.text-center.mb-4 Políticas internas.
     //- Fin Carrusel

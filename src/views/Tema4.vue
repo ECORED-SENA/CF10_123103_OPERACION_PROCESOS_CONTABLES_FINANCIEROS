@@ -185,33 +185,394 @@
         #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.2 Alternativas de optimización de costos
     p(data-aos="fade-left") Una vez identificadas las desviaciones y sus causas probables, la empresa debe valorar qué alternativas pueden reducir el costo o mejorar su comportamiento sin afectar de manera negativa la calidad, el cumplimiento o la operación.
-    p(data-aos="fade-right") Optimizar costos no significa recortar indiscriminadamente; significa mejorar el uso de los recursos para obtener un mejor resultado económico y operativo. En algunas situaciones, la optimización se logra reduciendo desperdicios; en otras, ajustando tiempos, renegociando condiciones de compra, actualizando bases de asignación o rediseñando actividades con bajo valor agregado (Hansen, 2007).
+    p(data-aos="fade-right") <b>Optimizar costos</b> no significa recortar indiscriminadamente; significa mejorar el uso de los recursos para obtener un mejor <b>resultado económico y operativo.</b> En algunas situaciones, la optimización se logra reduciendo desperdicios; en otras, ajustando tiempos, renegociando condiciones de compra, actualizando bases de asignación o rediseñando actividades con bajo valor agregado (Hansen, 2007).
     p(data-aos="fade-left") La identificación de oportunidades de optimización debe partir del análisis y no de intuiciones generales. Por ejemplo:
-    .row
+    //- Inicio Tarjetas
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg-color-18.p-4
+        .tarjeta--boton.color-primario.p-4.d-flex.flex-column.h-100.p-4
           .row.justify-content-center.mb-3
             .col-7.align-items-center
               figure
-                img.mx-auto(src='@/assets/curso/tema4/tarjeta_04_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          h4.text-center Intuition important
-          p.mb-0 Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+                img.mx-auto(src='@/assets/curso/tema4/tarjeta_04_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
+          h4.text-center Precio elevado de un insumo crítico
+          p.mb-0.text-center Revisar proveedores o renegociar condiciones de compra.
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
+        .tarjeta--boton.color-primario.p-4.d-flex.flex-column.h-100.p-4
           .row.justify-content-center.mb-3
             .col-7.align-items-center
               figure
-                img.mx-auto(src='@/assets/curso/tema4/tarjeta_04_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          h4.text-center Intuition important
-          p.mb-0 Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+                img.mx-auto(src='@/assets/curso/tema4/tarjeta_04_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
+          h4.text-center Cantidad consumida superior a la esperada
+          p.mb-0.text-center Fortalecer el control de desperdicio, rediseñar el proceso o revisar el estándar técnico.
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
+        .tarjeta--boton.color-primario.p-4.d-flex.flex-column.h-100.p-4
           .row.justify-content-center.mb-3
             .col-7.align-items-center
               figure
                 img.mx-auto(src='@/assets/curso/tema4/tarjeta_04_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          h4.text-center Intuition important
-          p.mb-0 Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+          h4.text-center Problemas relacionados con costos indirectos
+          p.mb-0.text-center Revisar la utilización de equipos, la distribución de energía, la organización de centros de costo o la base de reparto aplicada.
+    //- Fin Tarjetas
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img6.png' style="width: 500px").m-auto
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p.bg-color-5.p-4.rounded-4 Cada alternativa debe guardar relación con el problema que se pretende corregir. La viabilidad también hace parte del análisis. Una alternativa puede resultar técnicamente atractiva, pero difícil de implementar por limitaciones de <b>recursos, tiempo, capacidad operativa o impacto sobre la continuidad del proceso.</b> Por esta razón, junto con la oportunidad de ahorro, conviene revisar:
+          ul.lista-ul.color-vineta-custom.mb-0
+            li.d-flex.mt-3
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Factibilidad técnica. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Tiempo de implementación. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Recursos requeridos. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Impacto sobre la operación. 
+    p(data-aos="fade-left") Una mejora que genera un ahorro de $500.000, pero exige detener la producción durante varios días, puede resultar menos conveniente que otra que ahorra $350.000 con menor afectación operativa. La optimización, entonces, no depende únicamente del valor monetario del ahorro, sino también de la relación entre beneficio, costo de implementación y efecto sobre el funcionamiento de la empresa (García Colín, 2014).
+    p(data-aos="fade-left") La evaluación de alternativas de optimización requiere considerar simultáneamente el impacto económico esperado, la factibilidad de aplicación y las posibles implicaciones sobre la operación:
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img.mb-3(src="@/assets/curso/tema4/img7.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Precio alto del insumo principal")
+              p.mb-4 Renegociar la compra o revisar proveedores. El ahorro esperado puede alcanzar $800.000 mensuales y el impacto operativo inicial suele ser bajo o medio.
+          .row(titulo="Consumo superior al estándar")
+              p.mb-4 Mejorar la dosificación o fortalecer el control de desperdicio. El ahorro esperado puede aproximarse a $600.000 mensuales, con un impacto operativo medio.
+          .row(titulo="Tiempo de operación elevado")
+              p.mb-4 Ajustar el método de trabajo o la secuencia del proceso. Esta alternativa puede generar ahorros cercanos a $450.000 mensuales y requiere un impacto operativo medio.
+          .row(titulo="Costos indirectos crecientes por energía")
+              p.mb-4 Revisar el uso de equipos y reducir tiempos muertos. El ahorro esperado puede ser de aproximadamente $300.000 mensuales y el impacto operativo inicial suele ser bajo.
+          .row(titulo="Asignación débil de indirectos")
+              p.mb-4 Actualizar bases de reparto y centros de costo. Aunque el impacto monetario puede ser indirecto, mejora la confiabilidad del costo y presenta bajo impacto operativo inicial.
+    //- Fin Accordion
+    p(data-aos="fade-left") La relación entre problema identificado y alternativa de optimización facilita priorizar acciones de mejora con mayor sustento técnico y operativo.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+      .col-12.col-md-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema4/img8.png', alt='', style="object-fit: cover;")      
+      .col-12.col-md-7.p-4.p-lg-5.d-flex.flex-column.justify-content-center
+        p.fw-bold Ejemplo aplicado
+        p Una empresa de productos de aseo detecta que el mayor sobrecosto del trimestre se concentra en el consumo de envases por desperdicio durante el proceso de envasado. Después de revisar el proceso, identifica tres alternativas:
+        ul.lista-ul.color-vineta-custom.mb-0
+            li.d-flex.mt-1
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Ajustar la calibración de la máquina. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Cambiar el proveedor de envases. 
+            li.d-flex.mb-4
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Reforzar la inspección en línea. 
+        p.mb-0 La primera opción requiere una intervención técnica breve y genera el mayor ahorro esperado con menor afectación operativa. Por esta razón, aparece como la alternativa más razonable para iniciar el plan de optimización (Hansen, 2007).
+    Separador
+    //- Inicio Tema4.3
+    .row
+        #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.3 Análisis de escenarios de costos y beneficios
+    .row.mb-3.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img9.png' style="width: 550px").m-auto
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p El análisis de escenarios permite explorar cómo cambiarían los costos y los resultados económicos si se modifican determinadas variables del proceso. Esta herramienta resulta útil porque la empresa no siempre toma decisiones en contextos de certeza; en muchas situaciones debe valorar varias alternativas posibles y anticipar su impacto antes de intervenir.
+        p.mb-0 Por esta razón, construir escenarios base, optimista y pesimista ayuda a comprender distintos rangos de comportamiento del costo y facilita la preparación de decisiones más razonables frente a condiciones cambiantes. <b>El escenario base</b> representa la situación actual o la condición más probable de la operación. <b>El escenario optimista</b> considera condiciones favorables, como menor desperdicio, mejor rendimiento y reducción en los precios de compra. En contraste, el escenario pesimista proyecta posibles efectos negativos derivados del incremento en el precio de los insumos, la disminución de la productividad o el deterioro del rendimiento operativo.
+    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/img10.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Esta comparación no busca anticipar exactamente el futuro, sino medir la sensibilidad del costo frente a cambios relevantes de la operación. En términos prácticos, el análisis de escenarios ayuda a responder preguntas como las siguientes:
+          ul.lista-ul.color-vineta-custom.mb-0
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0.fw-bold ¿Qué ocurre si el material aumenta 6 %? 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0.fw-bold ¿Cómo cambia el costo si la productividad mejora 8 %? 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0.fw-bold ¿Qué efecto tendría una reducción de la merma sobre el margen? 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0.fw-bold ¿Qué tan sensible es el costo unitario frente al volumen producido?
+    p.mt-4(data-aos="fade-left") El análisis de sensibilidad complementa esta lectura porque permite identificar cuánto se altera el costo o el beneficio cuando cambia una variable específica.
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-12.col-lg-10
+        .rounded-4.overflow-hidden
+          .row.g-0.align-items-stretch
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+              p.banner-text.mb-4 Una fórmula sencilla para proyectar el impacto financiero puede expresarse de la siguiente manera:
+              .formula-destacada
+                p.fw-bold.mb-4.bg-color-6.p-3 Impacto financiero estimado = Ahorro o sobrecosto unitario × Volumen proyectado
+              p Si una mejora reduce el costo unitario en $180 y la producción mensual corresponde a 4.000 unidades, el impacto financiero mensual estimado será:
+              p $ 180 × 4.000 = $ 720.000
+              p Esta operación ayuda a que la empresa no evalúe la mejora únicamente desde la lógica técnica, sino también desde el efecto económico esperado (García Colín, 2014).
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-19
+              img.img-fluid(src="@/assets/curso/tema4/img11.svg" alt="" style="width: 200px")
+    p(data-aos="fade-left") La construcción de escenarios permite valorar posibles cambios en el comportamiento del costo y apoyar decisiones más informadas frente a condiciones futuras de operación:
+    //- Pestanas horizontales
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Base")
+            .row.align-items-center
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema4/tarjeta_05_1.png')
+              .col-md-7.mb-4.mb-md-0
+                h4 Base
+                p Presenta un costo unitario estimado de $ 7.200 para 3.000 unidades, con un impacto total de $ 21.600.000. Representa el referente actual de la operación.
+          .py-3.py-md-4(titulo="Optimista")
+            .row.align-items-center
+              .col-md-5.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema4/tarjeta_05_2.png')
+              .col-md-7
+                h4 Optimista
+                p Proyecta un costo unitario de $ 6.950 para 3.000 unidades, generando un impacto total de $ 20.850.000. Refleja mejoras asociadas a menor consumo y mejor rendimiento.
+          .py-3.py-md-4(titulo="Pesimista")
+            .row.align-items-center
+              .col-md-5.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema4/tarjeta_05_3.png')
+              .col-md-7
+                h4 Pesimista
+                p Considera un costo unitario estimado de $ 7.480 para 3.000 unidades, con un impacto total de $ 22.440.000. Representa un aumento de costos por incremento de insumos y baja eficiencia operativa.
+    //- Cierres Pestanas horizontales
+    p(data-aos="fade-left") La comparación entre escenarios permite valorar riesgos y oportunidades antes de implementar acciones de mejora, fortaleciendo la toma de decisiones relacionadas con costos y rentabilidad.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+      .col-12.col-md-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema4/img12.png', alt='', style="object-fit: cover;")      
+      .col-12.col-md-7.p-4.p-lg-5.d-flex.flex-column.justify-content-center
+        p.fw-bold Ejemplo aplicado
+        p.mb-0 Una empresa de alimentos proyecta una mejora en el proceso de empaque que permitiría reducir el desperdicio en un 2 %. En el escenario base, el costo unitario corresponde a $ 4.850; en el escenario optimista disminuye a $ 4.720; y en el escenario pesimista, debido al incremento de materiales y retrasos operativos, aumenta a $ 4.980. La comparación permite identificar que la empresa no solo debe valorar el ahorro potencial, sino también el riesgo de que determinadas condiciones operativas limiten el efecto esperado de la mejora (Cuevas Villegas, 2010).
+    Separador
+    //- Inicio Tema4.4
+    .row
+        #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.4 Criterios de priorización de acciones de mejora
+    p(data-aos="fade-left") No todas las oportunidades de mejora pueden ejecutarse al mismo tiempo ni producen el mismo efecto sobre la operación. Por esta razón, <b>la empresa necesita priorizar.</b> Priorizar significa <b>ordenar las acciones posibles</b> según criterios que permitan decidir cuáles deben implementarse primero, cuáles pueden esperar y cuáles no resultan convenientes en el momento actual.
+    p(data-aos="fade-left") En la <b>gestión de costos</b>, esta priorización resulta importante porque evita dispersar recursos en múltiples iniciativas menores y concentra el esfuerzo en aquellas alternativas con mejor relación entre <b>impacto, viabilidad y alineación</b> con los objetivos de la organización. Entre los criterios de priorización más frecuentes se encuentran:
+    .row.bg-color-1(data-aos="fade-left")
+      .col-12
+        .p-2    
+        //- Carrusel
+        .bg-full-width.mb-3(data-aos="fade-right")
+          .px-4.px-md-5.pb-md-3             
+            .carousel-bg
+              .row.justify-content-center.align-items-center
+                .col-lg-12.mb-3.mb-lg-0.order-lg-2
+                  SlyderF(columnas="col-xl-4 col-lg-6")
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Impacto económico.
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Factibilidad técnica.
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Alineación estratégica.
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Tiempo de implementación.
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Recursos requeridos.
+                    .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
+                      img(src='@/assets/curso/tema4/tarjeta_06_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                      p Riesgo operativo.
+            .row.mt-5(data-aos="fade-left")
+              .col-lg-5.mb-3.mb-lg-0
+                figure
+                  img(src="@/assets/curso/tema4/img13.png", data-aos="zoom-in" style="width: 600px")
+              .col-lg-7        
+                .row.align-items-start.mb-10
+                  .col-lg-auto
+                    img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    p El impacto económico permite identificar cuánto ahorro puede generar la acción o cuánto costo puede evitarse. La factibilidad técnica ayuda a establecer si la empresa realmente tiene capacidad para implementarla. La alineación estratégica revisa si la medida contribuye a las metas del negocio, mientras que el tiempo de implementación y los recursos requeridos permiten valorar qué tan demandante será su aplicación.
+                p Por su parte, el riesgo operativo facilita determinar si la mejora podría afectar la continuidad, la calidad o el cumplimiento de la operación. Una alternativa con alto ahorro, pero muy baja factibilidad técnica, puede quedar por debajo de otra con ahorro medio, aunque más realista y segura de implementar.
+              p.mt-3 Una herramienta práctica para apoyar esta evaluación es la matriz de priorización. La empresa puede asignar una escala, por ejemplo de 1 a 5, a cada criterio y posteriormente sumar los puntajes para obtener una lectura comparativa.
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-12.col-lg-10
+        .rounded-4.overflow-hidden
+          .row.g-0.align-items-stretch
+            .col-12.col-md-7.col-lg-9.p-4.p-lg-5.text-start.bg-color-2.d-flex.flex-column.justify-content-center
+              p.banner-text.mb-4 La fórmula básica puede expresarse de la siguiente manera:
+              .formula-destacada
+                p.fw-bold.mb-4.bg-color-6.p-3.text-center Puntaje total de prioridad = Impacto + Factibilidad + Alineación + Tiempo + Recursos + Riesgo invertido
+              p El criterio de riesgo invertido significa que una alternativa con menor riesgo obtiene una mejor valoración.
+            .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-20
+              img.img-fluid(src="@/assets/curso/tema4/img15.svg" alt="" style="width: 200px")
+    p El propósito no consiste en construir un modelo complejo, sino en ordenar las opciones disponibles con mayor criterio y evitar decisiones basadas únicamente en intuición o urgencia del momento (García Colín, 2014). La priorización de acciones permite distinguir cuáles alternativas ofrecen mejores condiciones de implementación y mayor aporte potencial frente a los objetivos de mejora de costos:
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img.mb-3(src="@/assets/curso/tema4/img16.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Ajustar dosificación")
+              p.mb-4 Presenta alto impacto económico, buena factibilidad técnica, implementación relativamente rápida y bajo riesgo operativo. Obtiene un puntaje total de 21, lo que la convierte en una alternativa prioritaria.
+          .row(titulo="Cambiar proveedor")
+              p.mb-4 Genera un impacto económico medio y requiere validaciones comerciales y operativas adicionales. Su puntaje total es de 16, indicando prioridad intermedia.
+          .row(titulo="Rediseñar proceso completo")
+              p.mb-4 Aunque ofrece potencial de ahorro alto, exige mayores recursos, más tiempo de implementación y presenta mayor complejidad operativa. Su puntaje total es de 11.
+          .row(titulo="Actualizar base de CIF")
+              p.mb-4 Tiene impacto moderado, pero alta facilidad de implementación, bajos requerimientos operativos y bajo riesgo. Obtiene el puntaje más alto, con 23 puntos.          
+    //- Fin Accordion
+    p(data-aos="fade-left") La utilización de criterios comparativos permite priorizar acciones de mejora de manera más objetiva y facilita la toma de decisiones relacionadas con optimización de costos.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+      .col-12.col-md-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema4/img17.png', alt='', style="object-fit: cover;")      
+      .col-12.col-md-7.p-4.p-lg-5.d-flex.flex-column.justify-content-center
+        p.fw-bold Ejemplo aplicado
+        p Una empresa dispone de cuatro alternativas para reducir el costo de operación:
+        ul.lista-ul.color-vineta-custom.mb-0
+            li.d-flex.mt-1
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Renegociar materia prima. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Ajustar la tasa de costos indirectos de fabricación. 
+            li.d-flex
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Rediseñar el <i>layout</i> de planta. 
+            li.d-flex.mb-4
+              i.fas.fa-check-circle.me-2
+              p.mb-0 Automatizar una etapa del proceso. 
+        p.mb-0 Aunque la automatización promete el mayor ahorro potencial, también requiere una inversión alta y un mayor tiempo de implementación. En contraste, la actualización de la base de costos indirectos de fabricación ofrece un impacto moderado, pero puede ejecutarse rápidamente y con bajo riesgo operativo. La priorización permite identificar que no siempre la alternativa con mayor ahorro inmediato representa la opción más conveniente para iniciar el proceso de mejora.
+    Separador
+    //- Inicio Tema4.5
+    .row
+        #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.5 <i>Benchmarking,</i> mejores prácticas, viabilidad e impacto operativo
+    .row.justify-content-center.align-items-stretch.mb-3
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
+          p.mb-0 El <b>benchmarking</b> consiste en comparar el desempeño de costos con <b>referentes internos o externos</b> para identificar oportunidades de mejora. Esta comparación puede realizarse entre distintos períodos de la empresa, entre líneas o procesos internos, o frente a referentes del sector cuando existe información disponible para efectuar el análisis comparativo. 
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img(src="@/assets/curso/tema4/img18.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-end.ps-lg-4          
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
+          p.mb-0 Su valor no radica en copiar de manera mecánica lo que hacen otras organizaciones, sino en reconocer <b>brechas de desempeño</b> y utilizar esa información para analizar qué prácticas podrían adaptarse a la realidad de la empresa.
+    p(data-aos="fade-left") En la gestión de costos, esta herramienta ayuda a validar si un indicador se encuentra dentro de un rango razonable o si evidencia una debilidad relevante frente a estándares de la industria o de la propia organización (Silveira, 2010).
+    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/img19.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las mejores prácticas corresponden a formas de trabajo que han demostrado resultados favorables y que pueden servir como referencia para mejorar el costo sin afectar la operación. En algunos casos, estas prácticas se relacionan con:
+          ul.lista-ul.color-vineta-custom.mb-0
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Compras. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Control de consumos. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Mantenimiento preventivo. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Actualización de estándares. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Uso de tecnología. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Diseño de reportes más claros. 
+    p(data-aos="fade-left")  Sin embargo, una práctica solo puede considerarse útil si demuestra viabilidad dentro del contexto real de la empresa. Esto significa que no basta con que funcione en otra organización; también debe evaluarse si puede implementarse con <b>los recursos, el nivel técnico, el tiempo y la estructura disponibles.</b>              
+    .row.mt-5.mb-5(data-aos="fade-left")
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/img20.png", data-aos="zoom-in" style="width: 600px")
+      .col-lg-7        
+        .row.align-items-start.mb-10
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p El impacto operativo constituye un filtro esencial dentro de esta evaluación. Una acción puede reducir costos, pero al mismo tiempo deteriorar <b>tiempos de entrega, aumentar reprocesos o afectar la calidad.</b> Por esta razón, la evaluación no debe concentrarse únicamente en el ahorro esperado. También es importante analizar cómo la medida implementada puede afectar el flujo de trabajo, la utilización de los equipos, la carga asignada al personal, la continuidad del proceso y la percepción del cliente interno o externo frente al servicio o producto generado.
+        p Una mejora técnicamente adecuada en el análisis puede resultar inconveniente si su impacto operativo es negativo o difícil de sostener (Horngren, 2012). La comparación con referentes internos o externos permite valorar oportunidades de mejora y analizar qué prácticas pueden adaptarse de manera viable a las condiciones reales de la operación: 
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-right")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema4/tarjeta_07_1.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 <i>Benchmarking</i> interno
+              p Permite analizar cómo se comporta una línea frente a otras de la misma empresa, facilitando la identificación de brechas internas de desempeño.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema4/tarjeta_07_2.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 <i>Benchmarking</i> externo
+              p Ayuda a verificar si el indicador se encuentra alineado con referentes del sector y permite valorar competitividad y posición relativa.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema4/tarjeta_07_3.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Mejor práctica
+              p Permite identificar acciones que han mostrado resultados favorables en otros contextos y que podrían adaptarse a la organización.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema4/tarjeta_07_4.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Viabilidad
+              p Evalúa si la empresa realmente cuenta con capacidad técnica, operativa y financiera para implementar la alternativa propuesta.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema4/tarjeta_07_5.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Impacto operativo
+              p Permite analizar si la mejora afecta tiempos, calidad, continuidad del proceso o funcionamiento general de la operación.
+    //- Fin Slideshow
+    p(data-aos="fade-left") La evaluación conjunta de estos elementos facilita seleccionar alternativas de mejora más sostenibles y alineadas con las condiciones reales de la empresa.    
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-2(data-aos="fade-right")
+      .col-12.col-md-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema4/img21.png', alt='', style="object-fit: cover;")      
+      .col-12.col-md-7.p-4.p-lg-5.d-flex.flex-column.justify-content-center
+        p.fw-bold Ejemplo aplicado
+        p Una empresa de productos de limpieza compara su consumo de envases por unidad con otra línea interna de mejor desempeño y encuentra que su desperdicio es 1,8 puntos porcentuales más alto.
+        p.mb-0 Posteriormente, revisa una práctica de control visual utilizada en otra planta del sector y concluye que puede adaptarla sin realizar grandes inversiones. Sin embargo, antes de implementarla, la empresa verifica que el cambio no afecte el ritmo de envasado ni genere demoras en despacho. Esta evaluación permite reconocer que el <i>benchmarking</i> y las mejores prácticas solo resultan útiles cuando se acompañan de análisis de viabilidad e impacto operativo.
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-12
+        .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-14.p-4.rounded-4           
+          .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
+            img(src='@/assets/curso/fondos/pdf.svg', style="width: 80px")          
+          .flex-grow-1.text-center.text-lg-start.text-white
+            h4.mb-2 Ejercicio aplicado 4. Técnicas de análisis y alternativas de optimización de costos
+            p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 4. Técnicas de análisis y alternativas de optimización de costos”, donde se aborda el análisis de desviaciones en costos y la evaluación de alternativas de mejora dentro de un proceso productivo. 
+          .mt-3.mt-lg-0.ps-lg-4            
+            a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
+              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio aplicado 4.pdf')" 
+              target="_blank"
+              style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
+              )
+                span.fw-bold.me-2 Descargar
+                i.fas.fa-file-download
 </template>
 
 <script>
