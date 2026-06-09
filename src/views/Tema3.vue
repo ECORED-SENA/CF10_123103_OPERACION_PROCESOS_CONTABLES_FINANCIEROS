@@ -115,7 +115,7 @@
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema3/img3.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto          
-              p.mt-3(data-aos="fade-left") La organización uniforme de esta información facilita el análisis posterior, fortalece la trazabilidad de los hallazgos y mejora la comunicación de resultados dentro de la empresa.
+              p.mt-5(data-aos="fade-left") La organización uniforme de esta información facilita el análisis posterior, fortalece la trazabilidad de los hallazgos y mejora la comunicación de resultados dentro de la empresa.
     .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
@@ -142,13 +142,13 @@
           p En la práctica, un procedimiento interno de registro de hallazgos suele desarrollarse por etapas que permiten garantizar control, trazabilidad y seguimiento de la información detectada durante la revisión de costos. El proceso normalmente inicia con la identificación de la diferencia o inconsistencia, continúa con la revisión de los soportes relacionados y la clasificación preliminar del tipo de hallazgo encontrado. 
       p Posteriormente, se diligencia el formato correspondiente, se valida la información por parte del responsable del área o del analista de costos y se archiva el reporte como evidencia documental. Finalmente, el hallazgo se remite a la instancia encargada de tomar decisiones, aplicar correctivos o realizar el seguimiento respectivo.
     .row.justify-content-center.align-items-stretch.mt-5.mb-3
-      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 Este flujo facilita la trazabilidad del reporte y contribuye a que los hallazgos relevantes no permanezcan únicamente en la etapa técnica, sino que lleguen también a la gestión administrativa o gerencial.
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
           img(src="@/assets/curso/tema3/img6.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
-      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+      .col-12.col-md-12.col-lg-5(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4          
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
@@ -236,28 +236,28 @@
         p.mb-0 Estas evidencias pueden provenir de:
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Requisiciones. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 <i>Kardex.</i>
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Tarjetas de tiempo. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Hojas de costeo. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Reportes de producción. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Comprobantes contables. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Matrices de asignación. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Políticas internas.
     p(data-aos="fade-left") Sin estos soportes, el reporte pierde solidez técnica y resulta más difícil validarlo o sostenerlo frente a una revisión posterior. El archivo de reportes cumple una función complementaria. No basta con emitir el informe; la empresa necesita conservarlo bajo un criterio que facilite su consulta posterior. En la práctica, esto implica definir si el archivo será físico, digital o mixto, cómo se codificará, quién tendrá acceso y de qué manera se relacionará con el período, el producto, el centro de costo o el proceso revisado.
     .row.justify-content-center.align-items-stretch.mt-3.mb-5
@@ -418,7 +418,7 @@
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema3/img13.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto          
-              p.mt-3(data-aos="fade-left") La organización de esta información facilita el seguimiento sistemático de las correcciones y fortalece la capacidad de la empresa para evaluar la efectividad de las acciones implementadas.
+              p.mt-5(data-aos="fade-left") La organización de esta información facilita el seguimiento sistemático de las correcciones y fortalece la capacidad de la empresa para evaluar la efectividad de las acciones implementadas.
     .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
@@ -452,19 +452,19 @@
         p.mb-0 En lugar de incluir todos los soportes técnicos, resume los aspectos más relevantes:
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Qué se revisó. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Qué se encontró. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Cuál es la magnitud del problema. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Qué áreas están involucradas. 
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Qué acciones preliminares se sugieren.
     p(data-aos="fade-left") En este sentido, la presentación ejecutiva no reemplaza el reporte técnico detallado, pero sí facilita que gerencia, coordinación o comité de costos comprendan el panorama general y definan prioridades con mayor rapidez (García Colín, 2014). La consolidación de resultados permite identificar patrones recurrentes, reconocer áreas críticas y facilitar una lectura más amplia del comportamiento de los costos dentro de la organización:
     .row.bg-color-1(data-aos="fade-left")
@@ -474,7 +474,7 @@
           .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.mb-3.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
                       .bg-color-13.tarjeta.h-100.bordes.overflow-hidden
@@ -518,7 +518,7 @@
                           h4.card-title.text-center.mb-4 Decisiones sugeridas
                           p Medidas relacionadas con seguimiento, corrección, actualización de criterios o auditoría adicional.          
             p(data-aos="fade-left") La organización consolidada de esta información facilita la lectura gerencial de los hallazgos y contribuye a priorizar acciones de control, mejora y seguimiento dentro de la empresa.
-    .row.justify-content-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
         .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-14.p-4.rounded-4           
           .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4

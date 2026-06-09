@@ -54,7 +54,7 @@
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta01_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                       p Herramientas estadísticas básicas, como la regresión. 
-            p.mt-5 Cada una aporta una mirada distinta y, en conjunto, ayudan a formular conclusiones técnicas mejor sustentadas (Horngren, 2012). La descomposición constituye una de las técnicas más útiles porque separa la variación total en componentes más fáciles de interpretar. Por ejemplo, una variación en materiales puede explicarse por precio y por cantidad.
+            p.mt-5.mb-5 Cada una aporta una mirada distinta y, en conjunto, ayudan a formular conclusiones técnicas mejor sustentadas (Horngren, 2012). La descomposición constituye una de las técnicas más útiles porque separa la variación total en componentes más fáciles de interpretar. Por ejemplo, una variación en materiales puede explicarse por precio y por cantidad.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .rounded-4.overflow-hidden
@@ -91,7 +91,7 @@
               i.fas.fa-check-circle.me-3
               p.mb-0.fw-bold Variación total = $ 670.000 
         p Esta descomposición permite identificar que la mayor parte de la desviación provino del precio y no únicamente del mayor consumo, lo cual modifica el enfoque del análisis y de la acción correctiva (García Colín, 2014).
-    p(data-aos="fade-left") Si una empresa identifica una variación desfavorable en materiales, la causa inmediata puede relacionarse con un consumo superior al estándar; sin embargo, la causa raíz puede originarse en fallas de dosificación, desperdicios durante <b>la manipulación, mantenimiento insuficiente de la maquinaria o problemas en la calidad del insumo utilizado.</b>
+    p.mt-5(data-aos="fade-left") Si una empresa identifica una variación desfavorable en materiales, la causa inmediata puede relacionarse con un consumo superior al estándar; sin embargo, la causa raíz puede originarse en fallas de dosificación, desperdicios durante <b>la manipulación, mantenimiento insuficiente de la maquinaria o problemas en la calidad del insumo utilizado.</b>
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
@@ -294,17 +294,17 @@
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0.fw-bold ¿Qué ocurre si el material aumenta 6 %? 
+              p.mb-0 ¿Qué ocurre si el material aumenta 6 %? 
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0.fw-bold ¿Cómo cambia el costo si la productividad mejora 8 %? 
+              p.mb-0 ¿Cómo cambia el costo si la productividad mejora 8 %? 
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0.fw-bold ¿Qué efecto tendría una reducción de la merma sobre el margen? 
+              p.mb-0 ¿Qué efecto tendría una reducción de la merma sobre el margen? 
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0.fw-bold ¿Qué tan sensible es el costo unitario frente al volumen producido?
-    p.mt-4(data-aos="fade-left") El análisis de sensibilidad complementa esta lectura porque permite identificar cuánto se altera el costo o el beneficio cuando cambia una variable específica.
+              p.mb-0 ¿Qué tan sensible es el costo unitario frente al volumen producido?
+    p.mt-4.mb-5(data-aos="fade-left") El análisis de sensibilidad complementa esta lectura porque permite identificar cuánto se altera el costo o el beneficio cuando cambia una variable específica.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .rounded-4.overflow-hidden
@@ -461,7 +461,7 @@
     .row.justify-content-center.align-items-stretch.mb-3
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
-          p.mb-0 El <b>benchmarking</b> consiste en comparar el desempeño de costos con <b>referentes internos o externos</b> para identificar oportunidades de mejora. Esta comparación puede realizarse entre distintos períodos de la empresa, entre líneas o procesos internos, o frente a referentes del sector cuando existe información disponible para efectuar el análisis comparativo. 
+          p.mb-0 El <b><i>benchmarking</i></b> consiste en comparar el desempeño de costos con <b>referentes internos o externos</b> para identificar oportunidades de mejora. Esta comparación puede realizarse entre distintos períodos de la empresa, entre líneas o procesos internos, o frente a referentes del sector cuando existe información disponible para efectuar el análisis comparativo. 
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
           img(src="@/assets/curso/tema4/img18.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
@@ -470,7 +470,7 @@
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Su valor no radica en copiar de manera mecánica lo que hacen otras organizaciones, sino en reconocer <b>brechas de desempeño</b> y utilizar esa información para analizar qué prácticas podrían adaptarse a la realidad de la empresa.
-    p(data-aos="fade-left") En la gestión de costos, esta herramienta ayuda a validar si un indicador se encuentra dentro de un rango razonable o si evidencia una debilidad relevante frente a estándares de la industria o de la propia organización (Silveira, 2010).
+    p.mb-5(data-aos="fade-left") En la gestión de costos, esta herramienta ayuda a validar si un indicador se encuentra dentro de un rango razonable o si evidencia una debilidad relevante frente a estándares de la industria o de la propia organización (Silveira, 2010).
     .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img19.png')})`}"
@@ -478,23 +478,23 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las mejores prácticas corresponden a formas de trabajo que han demostrado resultados favorables y que pueden servir como referencia para mejorar el costo sin afectar la operación. En algunos casos, estas prácticas se relacionan con:
           ul.lista-ul.color-vineta-custom.mb-0
-            li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Compras. 
             li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Control de consumos. 
             li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Mantenimiento preventivo. 
             li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Actualización de estándares. 
             li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Uso de tecnología. 
             li.d-flex.mt-2
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Diseño de reportes más claros. 
     p(data-aos="fade-left")  Sin embargo, una práctica solo puede considerarse útil si demuestra viabilidad dentro del contexto real de la empresa. Esto significa que no basta con que funcione en otra organización; también debe evaluarse si puede implementarse con <b>los recursos, el nivel técnico, el tiempo y la estructura disponibles.</b>              
     .row.mt-5.mb-5(data-aos="fade-left")

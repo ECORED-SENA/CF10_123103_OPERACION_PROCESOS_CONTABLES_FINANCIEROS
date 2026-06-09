@@ -12,7 +12,7 @@
           p.mb-0 <b>Comparar y analizar costos de operación</b> implica pasar del dato aislado a una lectura más útil del comportamiento económico de la empresa. En la práctica, una cifra de costo solo adquiere verdadero valor cuando puede contrastarse con un referente: un <b>período anterior, un presupuesto, un estándar o un margen esperado.</b> Esa comparación permite reconocer si el costo se comportó dentro de lo previsto o si presenta desviaciones que requieren explicación, validación y eventual corrección.
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema1/img1.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
+          img(src="@/assets/curso/tema1/img1.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4          
           .mb-3.d-flex.justify-content-start
@@ -132,7 +132,7 @@
         p.mb-0 Este tipo de evaluación permite determinar si la desviación corresponde a factores externos, problemas internos de eficiencia o fallas de control dentro del proceso productivo.
     Separador
     //- Inicio Tema1.2
-    .row.mt-5
+    .row
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.2 Costos estándar y márgenes esperados
     .row.justify-content-center.align-items-stretch.mb-5
@@ -170,7 +170,7 @@
               .formula-destacada.text-center
                 p.mb-0.bg-color-6.p-3 #[b Costo estándar unitario = (Cantidad estándar × Precio estándar) + (Tiempo estándar × Tarifa estándar) + CIF estándar por unidad]          
             .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-7
-              img.img-fluid.p-4(src="@/assets/curso/tema1/img8.svg" alt="" style="width: 350px")
+              img.img-fluid.p-4(src="@/assets/curso/tema1/img8.svg" alt="" style="width: 400px")
     p.mb-5(data-aos="fade-left") Este enfoque permite determinar, antes de producir, cuál sería el costo esperado bajo condiciones normales. Si la producción real se aparta del estándar, la empresa puede analizar si la diferencia proviene del precio, de la cantidad, del tiempo o del comportamiento de los costos indirectos (Hansen, 2007; Cuevas Villegas, 2010). 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
@@ -181,7 +181,7 @@
               .formula-destacada.text-center
                 p.mb-0.bg-color-6.p-3 #[b Margen esperado = Precio de venta esperado - Costo esperado]          
             .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-8
-              img.img-fluid.p-4(src="@/assets/curso/tema1/img9.svg" alt="" style="width: 350px")
+              img.img-fluid.p-4(src="@/assets/curso/tema1/img9.svg" alt="" style="width: 400px")
     p(data-aos="fade-left") Si una empresa espera vender una unidad en $25.000 y el costo estándar unitario es $18.000, el margen esperado será de $7.000. Esta referencia resulta importante porque la variación del costo no afecta únicamente la contabilidad del proceso, sino también el margen y, por tanto, la rentabilidad esperada del producto o servicio.
     P(data-aos="fade-left") Un pequeño aumento del costo estándar puede reducir significativamente el margen cuando la empresa trabaja con precios estrechos o en contextos de alta competencia (García Colín, 2014). El análisis de variaciones frente al estándar suele desagregarse en:
     //- Inicio Tarjetas
@@ -220,7 +220,7 @@
               p.banner-text.mt-3 Si la variación incrementa el costo, se interpreta como desfavorable; si lo reduce, se considera favorable.
             .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-9
               img.img-fluid.p-4(src="@/assets/curso/tema1/img10.svg" alt="" style="width: 250px")
-    p(data-aos="fade-left") Por ejemplo, si el material debía costar $5.000 por unidad de medida y terminó costando $5.300, existe una variación de precio desfavorable. De igual manera, si la empresa debía consumir 2 kilogramos por lote y consumió 1,9 kilogramos, existe una variación favorable de cantidad.
+    p(data-aos="fade-left") Por ejemplo, si el material debía costar $ 5.000 por unidad de medida y terminó costando $ 5.300, existe una variación de precio desfavorable. De igual manera, si la empresa debía consumir 2 kilogramos por lote y consumió 1,9 kilogramos, existe una variación favorable de cantidad.
     p(data-aos="fade-right") Esta clasificación ayuda a separar causas y evita que todas las diferencias se interpreten como si tuvieran el mismo origen (Hansen, 2007; Horngren, 2012).
     p(data-aos="fade-left") La siguiente estructura facilita relacionar las variaciones estándar con las posibles causas de desviación y contribuye a una interpretación más precisa del comportamiento real de los costos.
     //- Inicio Tabla
@@ -281,7 +281,7 @@
         p.mb-0 Si en la práctica un servicio consume 1,5 litros y tarda 55 minutos, la empresa no solo tendrá un costo real más alto, sino también una señal de desviación en cantidad y tiempo que afecta su margen esperado y debe explicarse con la información disponible.
     Separador
     //- Inicio Tema1.3
-    .row.mt-5
+    .row
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.3 Indicadores básicos de variación de costos
     .row.mb-5.justify-content-center.align-items-center
@@ -423,7 +423,7 @@
         p.mb-0 Esta lectura resulta más completa que afirmar únicamente que “el costo aumentó”, porque permite identificar cuánto aumentó por unidad, cuánto impactó en total y qué peso tiene la diferencia frente al valor esperado.
     Separador
     //- Inicio Tema1.4
-    .row.mt-5
+    .row
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.4 Comparación de períodos, tendencias y desviaciones
     p(data-aos="fade-left") La comparación entre períodos es una práctica necesaria para evitar que el análisis de costos se limite a una fotografía aislada. Un solo período puede contener comportamientos atípicos asociados al volumen, a los precios, a compras extraordinarias o a situaciones operativas específicas.
@@ -469,13 +469,13 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 De igual manera, una diferencia alta en un solo mes puede requerir atención inmediata aunque luego no vuelva a repetirse. En este punto, la empresa puede definir umbrales internos de alerta, por ejemplo:
           ul.lista-ul.color-vineta-custom.mb-0
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Variaciones superiores al 5 % o al 8 %.
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Cambios que superen cierto valor monetario.
-    p(data-aos="fade-left") Estos criterios no sustituyen el análisis, pero ayudan a priorizar la revisión de resultados y a establecer procedimientos de seguimiento más claros (Cuevas Villegas, 2010). La siguiente tabla permite comparar el comportamiento de los costos en distintos períodos y facilita reconocer tendencias, fluctuaciones recurrentes y posibles desviaciones sostenidas en el tiempo.    
+    p.mb-5(data-aos="fade-left") Estos criterios no sustituyen el análisis, pero ayudan a priorizar la revisión de resultados y a establecer procedimientos de seguimiento más claros (Cuevas Villegas, 2010). La siguiente tabla permite comparar el comportamiento de los costos en distintos períodos y facilita reconocer tendencias, fluctuaciones recurrentes y posibles desviaciones sostenidas en el tiempo.    
     //- Inicio Tabla
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-md-auto

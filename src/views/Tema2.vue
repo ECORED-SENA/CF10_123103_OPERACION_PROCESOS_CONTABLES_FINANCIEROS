@@ -17,10 +17,10 @@
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
               p.mb-0 Se confunden costos directos con indirectos.
-            li.d-flex.mt-3
+            li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 Se aplican bases de reparto que no guardan relación con el consumo real de recursos.
-            li.d-flex.mt-3
+            li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 Se distribuyen costos de manera uniforme entre objetos de costo que no consumen los mismos recursos.
     Separador
@@ -124,7 +124,7 @@
     p(data-aos="fade-left") Si un material fue cargado como directo, debe existir evidencia de su salida específica para una orden, lote o producto. Si una erogación fue tratada como indirecta, debe existir una base de asignación o, al menos, una justificación clara sobre la imposibilidad de asociarla de forma directa.
     p(data-aos="fade-left") Este cruce de información fortalece la calidad del costeo y ayuda a detectar errores recurrentes en la codificación o en el tratamiento de los recursos. La siguiente estructura comparativa resume algunos casos frecuentes en la verificación de costos directos e indirectos. Su finalidad es facilitar la identificación de errores comunes en la clasificación de recursos.
     //- Slideshow
-    .bg-full-width.bg-fondo-slider.mb-3
+    .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
           .row.align-items-center.p-4.p-md-5
@@ -272,13 +272,13 @@
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
               p.mb-0 Cómo se clasifican determinados rubros.
-            li.d-flex.mt-3
+            li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 Qué criterios se utilizan para distribuir costos indirectos.
-            li.d-flex.mt-3
+            li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 Qué centros de costo se encuentran activos.
-            li.d-flex.mt-3
+            li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 Qué soportes son obligatorios para validar el cálculo.
     p(data-aos="fade-left") Cuando estos lineamientos existen y se aplican de forma consistente, la revisión adquiere mayor solidez y los resultados resultan más defendibles frente a auditoría o control interno (Cuevas Villegas, 2010).
@@ -339,19 +339,19 @@
         p.mb-0 En la práctica, una verificación integral puede desarrollarse mediante un procedimiento por etapas:
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+              i.fas.fa-check-circle.me-2
               p.mb-0 Primero se revisan los costos directos.
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Luego se analizan los costos indirectos.
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Después se validan los centros y bases de reparto.
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Más adelante se revisan las tasas y soportes.
-            li.d-flex.mt-3
-              i.fas.fa-check-circle.me-3
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-2
               p.mb-0 Finalmente se consolida un juicio sobre la razonabilidad del costo asignado.
     p(data-aos="fade-left") Este procedimiento puede apoyarse en <b>listas de chequeo, matrices de validación o formatos internos de revisión.</b> Lo importante es que la empresa pueda demostrar qué verificó, con qué evidencia lo hizo y qué hallazgos obtuvo.
     .row.justify-content-center.align-items-stretch.mt-5.mb-5
