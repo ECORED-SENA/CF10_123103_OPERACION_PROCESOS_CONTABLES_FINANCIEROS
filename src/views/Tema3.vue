@@ -41,28 +41,28 @@
               SlyderF(columnas="col-xl-4 col-lg-6")
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema3/tarjeta01_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  p El periodo revisado. 
+                  p El periodo revisado
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema3/tarjeta01_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  p El objeto de costo. 
+                  p El objeto de costo
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema3/tarjeta01_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P El centro de costo involucrado. 
+                  P El centro de costo involucrado
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema3/tarjeta01_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P El valor esperado. 
+                  P El valor esperado
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema3/tarjeta01_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P El valor real. 
+                  P El valor real
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                  img(src='@/assets/curso/tema3/tarjeta01_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P La desviación identificada. 
+                  img(src='@/assets/curso/tema3/tarjeta01_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
+                  P La desviación identificada
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                  img(src='@/assets/curso/tema3/tarjeta01_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P La evidencia revisada. 
+                  img(src='@/assets/curso/tema3/tarjeta01_7.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
+                  P La evidencia revisada
                 .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
-                  img(src='@/assets/curso/tema3/tarjeta01_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
-                  P La persona responsable del análisis. 
+                  img(src='@/assets/curso/tema3/tarjeta01_8.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3                        
+                  P La persona responsable del análisis
     //- Fin Carrusel      
     p(data-aos="fade-left") Si se trata de servicios, además conviene identificar el contrato, cliente o tipo de servicio revisado. Este nivel de detalle no busca hacer más extenso el documento, sino asegurar que el hallazgo pueda entenderse, rastrearse y compararse posteriormente.
     p(data-aos="fade-right") Estos campos ayudan a organizar la información del hallazgo y facilitan el control posterior de las desviaciones identificadas: 
@@ -160,17 +160,17 @@
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Valor monetario afectado. 
+          p.mb-0 Valor monetario afectado
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Porcentaje de desviación. 
+          p.mb-0 Porcentaje de desviación
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Frecuencia con que se repite el problema. 
+          p.mb-0 Frecuencia con que se repite el problema
     p(data-aos="fade-left") La siguiente secuencia organiza las etapas básicas utilizadas para registrar, validar y dar seguimiento a los hallazgos derivados de la verificación de costos:          
     //- Fin Tarjetas
     .row.bg-color-1(data-aos="fade-left")
@@ -202,7 +202,7 @@
                         img(src='@/assets/curso/tema3/tarjeta_04_4.png').w-100
                         .p-4
                           h4.card-title.text-center.mb-4 Registro
-                          p Diligenciar el formato correspondiente para documentar el hallazgo. Habitualmente lo realiza el analista o el área de costos.
+                          p Diligenciar el formato correspondiente para documentar el hallazgo. Habitualmente, lo realiza el analista o el área de costos.
                       .bg-color-13.tarjeta.h-100.bordes.overflow-hidden
                         img(src='@/assets/curso/tema3/tarjeta_04_5.png').w-100
                         .p-4
@@ -237,28 +237,28 @@
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-2
-              p.mb-0 Requisiciones. 
+              p.mb-0 Requisiciones
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 <i>Kardex.</i>
+              p.mb-0 <i>Kardex</i>
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Tarjetas de tiempo. 
+              p.mb-0 Tarjetas de tiempo
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Hojas de costeo. 
+              p.mb-0 Hojas de costeo
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Reportes de producción. 
+              p.mb-0 Reportes de producción
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Comprobantes contables. 
+              p.mb-0 Comprobantes contables
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Matrices de asignación. 
+              p.mb-0 Matrices de asignación
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Políticas internas.
+              p.mb-0 Políticas internas
     p(data-aos="fade-left") Sin estos soportes, el reporte pierde solidez técnica y resulta más difícil validarlo o sostenerlo frente a una revisión posterior. El archivo de reportes cumple una función complementaria. No basta con emitir el informe; la empresa necesita conservarlo bajo un criterio que facilite su consulta posterior. En la práctica, esto implica definir si el archivo será físico, digital o mixto, cómo se codificará, quién tendrá acceso y de qué manera se relacionará con el período, el producto, el centro de costo o el proceso revisado.
     .row.justify-content-center.align-items-stretch.mt-3.mb-5
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -425,7 +425,7 @@
           img.h-100.w-100(src='@/assets/curso/tema3/img14.png', alt='', style="object-fit: cover;")      
       .col-12.col-md-7.p-4.p-lg-5.d-flex.flex-column.justify-content-center
         p.fw-bold Ejemplo aplicado
-        p.mb-0 Una empresa detectó que durante tres meses consecutivos había sobre asignado costos indirectos a una línea debido al uso de una base antigua de horas máquina. La acción correctiva consistió en actualizar la tasa, ajustar la base de asignación y capacitar al responsable del cálculo. Dos meses después, el seguimiento permitió identificar que la desviación porcentual disminuyó del 11 % al 3 %. Este tipo de evidencia permite concluir que el hallazgo no solo fue documentado, sino que también produjo una corrección observable y verificable. 
+        p.mb-0 Una empresa detectó que durante tres meses consecutivos había sobreasignado costos indirectos a una línea debido al uso de una base antigua de horas máquina. La acción correctiva consistió en actualizar la tasa, ajustar la base de asignación y capacitar al responsable del cálculo. Dos meses después, el seguimiento permitió identificar que la desviación porcentual disminuyó del 11 % al 3 %. Este tipo de evidencia permite concluir que el hallazgo no solo fue documentado, sino que también produjo una corrección observable y verificable. 
     Separador
     //- Inicio Tema3.5
     .row

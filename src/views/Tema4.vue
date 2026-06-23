@@ -106,17 +106,17 @@
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema4/tarjeta_02_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Costo y volumen. 
+          p.mb-0 Costo y volumen
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema4/tarjeta_02_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Costo y tiempo de proceso. 
+          p.mb-0 Costo y tiempo de proceso
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema4/tarjeta_02_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Costo y utilización de recursos.          
+          p.mb-0 Costo y utilización de recursos
     //- Fin Tarjetas
     p(data-aos="fade-left") En contextos menos sofisticados, una lectura sistemática de tendencias también puede ofrecer hallazgos suficientes para construir conclusiones técnicas iniciales. El análisis de desviaciones puede apoyarse en diferentes enfoques de interpretación que ayudan a reconocer causas críticas y prioridades de mejora dentro del proceso de costos:
     //- Pestanas horizontales
@@ -374,22 +374,22 @@
                   SlyderF(columnas="col-xl-4 col-lg-6")
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Impacto económico.
+                      p Impacto económico
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Factibilidad técnica.
+                      p Factibilidad técnica
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Alineación estratégica.
+                      p Alineación estratégica
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Tiempo de implementación.
+                      p Tiempo de implementación
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Recursos requeridos.
+                      p Recursos requeridos
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta_06_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Riesgo operativo.
+                      p Riesgo operativo
             .row.mt-5(data-aos="fade-left")
               .col-lg-5.mb-3.mb-lg-0
                 figure
@@ -401,7 +401,7 @@
                   .col-lg
                     p El impacto económico permite identificar cuánto ahorro puede generar la acción o cuánto costo puede evitarse. La factibilidad técnica ayuda a establecer si la empresa realmente tiene capacidad para implementarla. La alineación estratégica revisa si la medida contribuye a las metas del negocio, mientras que el tiempo de implementación y los recursos requeridos permiten valorar qué tan demandante será su aplicación.
                 p Por su parte, el riesgo operativo facilita determinar si la mejora podría afectar la continuidad, la calidad o el cumplimiento de la operación. Una alternativa con alto ahorro, pero muy baja factibilidad técnica, puede quedar por debajo de otra con ahorro medio, aunque más realista y segura de implementar.
-              p.mt-3 Una herramienta práctica para apoyar esta evaluación es la matriz de priorización. La empresa puede asignar una escala, por ejemplo de 1 a 5, a cada criterio y posteriormente sumar los puntajes para obtener una lectura comparativa.
+              p.mt-3 Una herramienta práctica para apoyar esta evaluación es la matriz de priorización. La empresa puede asignar una escala, por ejemplo, de 1 a 5, a cada criterio y posteriormente sumar los puntajes para obtener una lectura comparativa.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .rounded-4.overflow-hidden

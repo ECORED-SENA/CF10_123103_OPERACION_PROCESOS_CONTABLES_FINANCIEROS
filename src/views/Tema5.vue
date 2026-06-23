@@ -25,22 +25,22 @@
                   SlyderF(columnas="col-xl-4 col-lg-6")
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Describir el problema.
+                      p Describir el problema
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Sustentar la alternativa elegida.
+                      p Sustentar la alternativa elegida
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Estimar su impacto.
+                      p Estimar su impacto
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Asignar responsables.
+                      p Asignar responsables
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Definir plazos.
+                      p Definir plazos
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema5/tarjeta_01_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                      p Establecer indicadores que permitan valorar el avance.
+                      p Establecer indicadores que permitan valorar el avance
             p.mt-5 De igual manera, socializar resultados e implementar acciones requiere canales, formatos y controles que faciliten comunicar el progreso, identificar brechas y aprender de los resultados obtenidos.
     Separador
     //- Inicio Tema5.1
@@ -258,7 +258,7 @@
                   h5.mb-3.fw-bold Protocolos de socialización de resultados en la mejora empresarial
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

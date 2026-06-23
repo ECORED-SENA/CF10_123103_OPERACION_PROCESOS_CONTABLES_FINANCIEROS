@@ -55,22 +55,22 @@
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Por qué ocurrió.
+          p.mb-0 Por qué ocurrió
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Si era previsible.
+          p.mb-0 Si era previsible
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Si se repite en distintos períodos.
+          p.mb-0 Si se repite en distintos períodos
       .col-12.col-sm-9.col-md-6.col-lg-3.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta01_4.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Si afecta la rentabilidad o la eficiencia del proceso.
+          p.mb-0 Si afecta la rentabilidad o la eficiencia del proceso
     //- Fin Tarjetas
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
@@ -190,17 +190,17 @@
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación de precio.
+          p.mb-0 Variación de precio
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación de cantidad.
+          p.mb-0 Variación de cantidad
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta02_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación de CIF.
+          p.mb-0 Variación de CIF
     //- Fin Tarjetas
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
@@ -297,17 +297,17 @@
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación total.
+          p.mb-0 Variación total
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación unitaria.
+          p.mb-0 Variación unitaria
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema1/tarjeta03_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
-          p.mb-0 Variación porcentual.
+          p.mb-0 Variación porcentual
     //- Fin Tarjetas
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
@@ -467,7 +467,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img20.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 De igual manera, una diferencia alta en un solo mes puede requerir atención inmediata aunque luego no vuelva a repetirse. En este punto, la empresa puede definir umbrales internos de alerta, por ejemplo:
+        p.mb-0 De igual manera, una diferencia alta en un solo mes puede requerir atención inmediata, aunque luego no vuelva a repetirse. En este punto, la empresa puede definir umbrales internos de alerta, por ejemplo:
           ul.lista-ul.color-vineta-custom.mb-0
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2

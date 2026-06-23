@@ -230,7 +230,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/123103_CF10_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -355,7 +355,7 @@ export default {
     {
       referencia:
         'Silveira, Y. P. (2010). <i>Benchmarking:</i> gestionando el desempeño empresarial a través de las mejores prácticas. Observatorio de la Economía Latinoamericana. ',
-      link: '',
+      link: 'http://www.eumed.net/cursecon/ecolat/cu/2010/ysp.htm',
     },
   ],
   creditos: [

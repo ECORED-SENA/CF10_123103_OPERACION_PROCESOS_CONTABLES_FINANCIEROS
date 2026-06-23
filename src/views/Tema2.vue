@@ -107,19 +107,19 @@
               SlyderF(columnas="col-xl-4 col-lg-6")
                 .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_1.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                  p.card-title.text-center.mb-4 Requisiciones.
+                  p.card-title.text-center.mb-4 Requisiciones
                 .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_2.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                  p.card-title.text-center.mb-4 Tarjetas de tiempo.
+                  p.card-title.text-center.mb-4 Tarjetas de tiempo
                 .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_3.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                  p.card-title.text-center.mb-4 Nómina.
+                  p.card-title.text-center.mb-4 Nómina
                 .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_4.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                  p.card-title.text-center.mb-4 Comprobantes contables.
+                  p.card-title.text-center.mb-4 Comprobantes contables
                 .bg-color-13.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
                   img(src='@/assets/curso/tema2/tarjeta02_5.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
-                  p.card-title.text-center.mb-4 Políticas internas.
+                  p.card-title.text-center.mb-4 Políticas internas
     //- Fin Carrusel
     p(data-aos="fade-left") Si un material fue cargado como directo, debe existir evidencia de su salida específica para una orden, lote o producto. Si una erogación fue tratada como indirecta, debe existir una base de asignación o, al menos, una justificación clara sobre la imposibilidad de asociarla de forma directa.
     p(data-aos="fade-left") Este cruce de información fortalece la calidad del costeo y ayuda a detectar errores recurrentes en la codificación o en el tratamiento de los recursos. La siguiente estructura comparativa resume algunos casos frecuentes en la verificación de costos directos e indirectos. Su finalidad es facilitar la identificación de errores comunes en la clasificación de recursos.
@@ -147,7 +147,7 @@
                 img(src="@/assets/curso/tema2/tarjeta03_3.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Operario de producción
-              p Generalmente se clasifica como costo directo. La validación puede realizarse mediante tarjetas de tiempo y nómina, relacionándolo con la orden o el proceso.
+              p Generalmente, se clasifica como costo directo. La validación puede realizarse mediante tarjetas de tiempo y nómina, relacionándola con la orden o el proceso.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -213,7 +213,7 @@
                 img(src="@/assets/curso/tema2/tarjeta04_1.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Mezclado
-              p Acumula $ 12.000.000 en CIF y utiliza 4.000 horas máquina como base de actividad, generando una tasa de $ 3.000 por hora. La revisión debe confirmar la relación entre los costos indirectos y las horas máquina utilizadas..                    
+              p Acumula $ 12.000.000 en CIF y utiliza 4.000 horas máquina como base de actividad, generando una tasa de $ 3.000 por hora. La revisión debe confirmar la relación entre los costos indirectos y las horas máquina utilizadas.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -310,7 +310,7 @@
           .row(titulo="Base de asignación")
               p.mb-4 Confirmar si la base utilizada se mantuvo o fue modificada con justificación técnica. La validación puede apoyarse en reportes técnicos o decisiones documentadas.
           .row(titulo="Clasificación de costos")
-              p.mb-4 Revisar si los rubros conservan el mismo criterio entre períodos. La evidencia puede encontrarse en matrices de clasificación o hojas de costeo.
+              p.mb-4 Revisar si los rubros conservan el mismo criterio entre períodos. La evidencia puede encontrarse en matrices de clasificación u hojas de costeo.
           .row(titulo="Soporte normativo o interno")
               p.mb-4 Comprobar la existencia de políticas o lineamientos aplicables. La revisión puede apoyarse en manuales, instructivos o políticas organizacionales.
           .row(titulo="Registro del criterio aplicado")
@@ -352,7 +352,7 @@
               p.mb-0 Más adelante se revisan las tasas y soportes.
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
-              p.mb-0 Finalmente se consolida un juicio sobre la razonabilidad del costo asignado.
+              p.mb-0 Finalmente, se consolida un juicio sobre la razonabilidad del costo asignado.
     p(data-aos="fade-left") Este procedimiento puede apoyarse en <b>listas de chequeo, matrices de validación o formatos internos de revisión.</b> Lo importante es que la empresa pueda demostrar qué verificó, con qué evidencia lo hizo y qué hallazgos obtuvo.
     .row.justify-content-center.align-items-stretch.mt-5.mb-5
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
