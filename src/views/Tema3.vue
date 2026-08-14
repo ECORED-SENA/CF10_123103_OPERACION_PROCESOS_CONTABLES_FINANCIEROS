@@ -18,12 +18,12 @@
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Por esta razón, <b>el reporte y registro de hallazgos</b> cumplen una función de control interno y de apoyo a la toma de decisiones, ya que convierten la verificación técnica de costos en un insumo formal para el seguimiento, la mejora y la rendición de información dentro de la organización (García Colín, 2014).
-    p(data-aos="fade-left") Cuando los hallazgos no se registran, <b>la empresa pierde trazabilidad,</b> repite errores entre períodos y debilita su capacidad para justificar ajustes, correcciones o decisiones de mejora. Por ello, el registro de hallazgos, la conservación de evidencias, el seguimiento de correcciones y la presentación ejecutiva de resultados hacen parte del control de costos y no deben entenderse como tareas accesorias o meramente administrativas.
+    p.mb-0(data-aos="fade-left") Cuando los hallazgos no se registran, <b>la empresa pierde trazabilidad,</b> repite errores entre períodos y debilita su capacidad para justificar ajustes, correcciones o decisiones de mejora. Por ello, el registro de hallazgos, la conservación de evidencias, el seguimiento de correcciones y la presentación ejecutiva de resultados hacen parte del control de costos y no deben entenderse como tareas accesorias o meramente administrativas.
     Separador
     //- Inicio Tema3.1
     .row
-        #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.1 Formatos de reporte de verificación de costos
+      #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.1 Formatos de reporte de verificación de costos
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
@@ -116,7 +116,7 @@
                     figure
                       img(src='@/assets/curso/tema3/img3.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto          
               p.mt-5(data-aos="fade-left") La organización uniforme de esta información facilita el análisis posterior, fortalece la trazabilidad de los hallazgos y mejora la comunicación de resultados dentro de la empresa.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema3/img4.png', alt='', style="object-fit: cover;")      
@@ -126,10 +126,10 @@
     Separador
     //- Inicio Tema3.2
     .row
-        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.2 Procedimientos internos de registro de hallazgos
+      #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.2 Procedimientos internos de registro de hallazgos
     p(data-aos="fade-left") Registrar un hallazgo no consiste únicamente en diligenciar un formato; también exige <b>seguir un procedimiento interno</b> que indique quién detecta la diferencia, quién valida la información, quién registra el hallazgo y qué instancia recibe el reporte.
-    .row.mb-5(data-aos="fade-left")
+    .row(data-aos="fade-left")
       .col-lg-5.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/img5.png", data-aos="zoom-in" style="width: 600px")
@@ -140,8 +140,8 @@
           .col-lg
             p Este procedimiento resulta importante porque <b>evita que el control de costos</b> dependa del criterio aislado de una sola persona y asegura que la información siga una ruta definida dentro de la empresa. Cuando el procedimiento está claramente establecido, el hallazgo no se pierde, no se duplica y no queda sin responsable de seguimiento (Hansen, 2007).
           p En la práctica, un procedimiento interno de registro de hallazgos suele desarrollarse por etapas que permiten garantizar control, trazabilidad y seguimiento de la información detectada durante la revisión de costos. El proceso normalmente inicia con la identificación de la diferencia o inconsistencia, continúa con la revisión de los soportes relacionados y la clasificación preliminar del tipo de hallazgo encontrado. 
-      p Posteriormente, se diligencia el formato correspondiente, se valida la información por parte del responsable del área o del analista de costos y se archiva el reporte como evidencia documental. Finalmente, el hallazgo se remite a la instancia encargada de tomar decisiones, aplicar correctivos o realizar el seguimiento respectivo.
-    .row.justify-content-center.align-items-stretch.mt-5.mb-3
+      p.mb-0 Posteriormente, se diligencia el formato correspondiente, se valida la información por parte del responsable del área o del analista de costos y se archiva el reporte como evidencia documental. Finalmente, el hallazgo se remite a la instancia encargada de tomar decisiones, aplicar correctivos o realizar el seguimiento respectivo.
+    .row.justify-content-center.align-items-stretch.my-4
       .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 Este flujo facilita la trazabilidad del reporte y contribuye a que los hallazgos relevantes no permanezcan únicamente en la etapa técnica, sino que lleguen también a la gestión administrativa o gerencial.
@@ -171,16 +171,16 @@
           figure.mb-4
             img.mx-auto(src='@/assets/curso/tema3/tarjeta_03_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")          
           p.mb-0 Frecuencia con que se repite el problema
-    p(data-aos="fade-left") La siguiente secuencia organiza las etapas básicas utilizadas para registrar, validar y dar seguimiento a los hallazgos derivados de la verificación de costos:          
+    p.mb-4(data-aos="fade-left") La siguiente secuencia organiza las etapas básicas utilizadas para registrar, validar y dar seguimiento a los hallazgos derivados de la verificación de costos:          
     //- Fin Tarjetas
     .row.bg-color-1(data-aos="fade-left")
       .col-12
-        .p-5
+        .px-5
           //- Carrusel
           .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
                       .bg-color-13.tarjeta.h-100.bordes.overflow-hidden
@@ -215,7 +215,7 @@
                           p Conservar el reporte y remitirlo a seguimiento. Esta actividad suele estar a cargo del área de costos o del apoyo administrativo.
           //- Fin Carrusel
           p(data-aos="fade-left") La aplicación ordenada de estas etapas fortalece la trazabilidad de los hallazgos y mejora la articulación entre las áreas responsables del control y seguimiento de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema3/img7.png', alt='', style="object-fit: cover;")      
@@ -225,8 +225,8 @@
     Separador
     //- Inicio Tema3.3
     .row
-        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.3 Documentación de evidencias, archivo de reportes y trazabilidad
+      #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.3 Documentación de evidencias, archivo de reportes y trazabilidad
     p(data-aos="fade-left") La calidad de un hallazgo depende, en buena medida, de la evidencia que lo respalda. En verificación de costos, documentar evidencias significa conservar y relacionar los soportes que permiten demostrar por qué se concluyó que existe una desviación, una inconsistencia de clasificación o una debilidad de asignación. 
     .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
       .bloque-texto-g__img(
@@ -275,8 +275,8 @@
     p(data-aos="fade-left") Los siguientes elementos permiten relacionar los soportes utilizados en la revisión con su función dentro del proceso de control y trazabilidad de costos:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-right")
+      .p-4.p-md-5(data-aos="fade-right")
+        SlyderA(tipo="b").bg-white.p-4.tarjeta
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -321,7 +321,7 @@
               p Justifican los criterios de clasificación o asignación utilizados durante la revisión técnica.                      
     //- Fin Slideshow
     p(data-aos="fade-left") La conservación organizada de estos soportes facilita la reconstrucción del análisis, fortalece el control documental y mejora la confiabilidad de los procesos de verificación de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema3/img10.png', alt='', style="object-fit: cover;")      
@@ -331,8 +331,8 @@
     Separador
     //- Inicio Tema3.4
     .row
-        #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.4 Seguimiento de correcciones, auditoría interna y políticas de retención
+      #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.4 Seguimiento de correcciones, auditoría interna y políticas de retención
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
@@ -419,7 +419,7 @@
                     figure
                       img(src='@/assets/curso/tema3/img13.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto          
               p.mt-5(data-aos="fade-left") La organización de esta información facilita el seguimiento sistemático de las correcciones y fortalece la capacidad de la empresa para evaluar la efectividad de las acciones implementadas.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema3/img14.png', alt='', style="object-fit: cover;")      
@@ -429,8 +429,8 @@
     Separador
     //- Inicio Tema3.5
     .row
-        #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.5 Consolidación de hallazgos, conclusiones y presentación ejecutiva
+      #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.5 Consolidación de hallazgos, conclusiones y presentación ejecutiva
     p(data-aos="fade-left") La consolidación de hallazgos consiste en reunir los resultados de varias verificaciones en una visión más sintética y útil para la toma de decisiones. Mientras el formato individual documenta cada caso revisado, la consolidación permite identificar patrones, recurrencias, áreas críticas, centros de costo con mayores desviaciones y causas probables que se repiten.
     p(data-aos="fade-left") En la práctica, este paso ayuda a que la empresa no permanezca analizando cada caso de manera aislada, sino que pueda reconocer tendencias y prioridades de intervención.
     .row.mb-5(data-aos="fade-left")
@@ -444,7 +444,7 @@
           .col-lg
             p Las conclusiones deben derivarse de la consolidación de hallazgos y no de apreciaciones generales. Una conclusión adecuada debe precisar si la mayor cantidad de diferencias se concentra en materiales, si las inconsistencias están relacionadas con la clasificación de costos indirectos, si las bases de reparto ya no representan la operación real o si los problemas recurrentes provienen de fallas en el registro y en los soportes documentales. 
           p Este nivel de síntesis mejora la utilidad del informe y facilita posteriormente la formulación de recomendaciones de mejora. La presentación ejecutiva traduce esa consolidación a un lenguaje claro para los niveles de decisión.
-    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img16.png')})`}"
       )
@@ -466,10 +466,10 @@
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-2
               p.mb-0 Qué acciones preliminares se sugieren.
-    p(data-aos="fade-left") En este sentido, la presentación ejecutiva no reemplaza el reporte técnico detallado, pero sí facilita que gerencia, coordinación o comité de costos comprendan el panorama general y definan prioridades con mayor rapidez (García Colín, 2014). La consolidación de resultados permite identificar patrones recurrentes, reconocer áreas críticas y facilitar una lectura más amplia del comportamiento de los costos dentro de la organización:
+    p.my-4(data-aos="fade-left") En este sentido, la presentación ejecutiva no reemplaza el reporte técnico detallado, pero sí facilita que gerencia, coordinación o comité de costos comprendan el panorama general y definan prioridades con mayor rapidez (García Colín, 2014). La consolidación de resultados permite identificar patrones recurrentes, reconocer áreas críticas y facilitar una lectura más amplia del comportamiento de los costos dentro de la organización:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
-        .p-5
+        .px-5
           //- Carrusel
           .bg-full-width
             .px-4.px-md-5.pb-md-3             
@@ -528,7 +528,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 3. Reporte y registro de hallazgos en la verificación de costos”, donde se aborda la identificación, organización y consolidación de hallazgos relacionados con desviaciones y errores en sistemas de costos empresariales.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio aplicado 3.pdf')" 
+              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_3.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )

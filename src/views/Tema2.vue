@@ -6,8 +6,8 @@
       .titulo-principal__numero
         span 2
       h1 Verificación de criterios de clasificación y asignación de costos
-    p(data-aos="fade-left") <b>Verificar la clasificación y asignación de costos</b> implica revisar si los valores calculados en la empresa fueron tratados con criterios consistentes, si las bases de reparto utilizadas son razonables y si la distribución de materiales, mano de obra y costos indirectos responde a la realidad operativa del proceso.
-    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+    p.mb-4(data-aos="fade-left") <b>Verificar la clasificación y asignación de costos</b> implica revisar si los valores calculados en la empresa fueron tratados con criterios consistentes, si las bases de reparto utilizadas son razonables y si la distribución de materiales, mano de obra y costos indirectos responde a la realidad operativa del proceso.
+    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
@@ -26,8 +26,8 @@
     Separador
     //- Inicio Tema2.1
     .row
-        #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.1 Criterios de clasificación y asignación de costos
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.1 Criterios de clasificación y asignación de costos
     p(data-aos="fade-left") A continuación, se presenta un video sobre la verificación y clasificación de los costos en los sistemas de costeo.          
     //- Inicio Video
     figure.mb-5(data-aos="fade-right")
@@ -72,7 +72,7 @@
                           p Comprobar que la clasificación coincida con los lineamientos definidos por la empresa. Las inconsistencias pueden generar diferencias entre áreas y períodos.  
           //- Fin Carrusel
           p(data-aos="fade-left") La aplicación de estos criterios contribuye a mejorar la consistencia técnica del costeo y facilita posteriores procesos de análisis, control y toma de decisiones.          
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema2/img2.png', alt='', style="object-fit: cover;")      
@@ -82,8 +82,8 @@
     Separador
     //- Inicio Tema2.2
     .row
-        #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.2 Revisión de costos directos e indirectos
+      #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.2 Revisión de costos directos e indirectos
     p(data-aos="fade-left") La revisión de <b>costos directos e indirectos</b> busca comprobar si la empresa está reconociendo correctamente qué recursos se incorporan o se asocian de manera inmediata al objeto de costo y cuáles sostienen la operación de forma general.
     .row.justify-content-center.align-items-stretch.mt-5.mb-3
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -125,8 +125,8 @@
     p(data-aos="fade-left") Este cruce de información fortalece la calidad del costeo y ayuda a detectar errores recurrentes en la codificación o en el tratamiento de los recursos. La siguiente estructura comparativa resume algunos casos frecuentes en la verificación de costos directos e indirectos. Su finalidad es facilitar la identificación de errores comunes en la clasificación de recursos.
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+      .p-4.p-md-5(data-aos="fade-left")
+        SlyderA(tipo="b").bg-white.p-4.tarjeta
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -164,7 +164,7 @@
               p Se clasifica normalmente como costo indirecto. La evidencia puede provenir de requisiciones generales o consumos por área, ya que sostiene la operación y no un producto específico.                            
     //- Fin Slideshow
     p(data-aos="fade-right") La revisión sistemática de estos recursos facilita la identificación de inconsistencias en la clasificación y fortalece la confiabilidad de la información de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema2/img4.png', alt='', style="object-fit: cover;")      
@@ -174,8 +174,8 @@
     Separador
     //- Inicio Tema2.3
     .row
-        #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.3 Verificación de centros de costo y validación de tasas
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.3 Verificación de centros de costo y validación de tasas
     p(data-aos="fade-left") La verificación de centros de costo busca confirmar si la empresa está acumulando los costos en áreas, procesos o dependencias coherentes con su estructura operativa. Esta actividad resulta importante porque la asignación de <b>costos indirectos,</b> la comparación entre períodos y el análisis de desviaciones dependen de que los costos estén reunidos en <b>centros homogéneos y funcionalmente claros.</b>
     .row.mb-5(data-aos="fade-left")
       .col-lg-5.mb-3.mb-lg-0
@@ -205,8 +205,8 @@
     p(data-aos="fade-left") A continuación, se presentan elementos utilizados para revisar la consistencia de las tasas y bases de asignación.
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+      .p-4.p-md-5(data-aos="fade-left")
+        SlyderA(tipo="b").bg-white.p-4.tarjeta
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -237,7 +237,7 @@
               p Presenta $ 4.200.000 en CIF y 2.100 inspecciones como base de actividad, con una tasa de $ 2.000 por inspección. La revisión debe verificar la consistencia del conductor utilizado para la asignación.                         
     //- Fin Slideshow
     p(data-aos="fade-left") La revisión sistemática de estos elementos permite fortalecer la coherencia técnica de la distribución de costos indirectos y facilita la detección de criterios de asignación poco representativos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema2/img7.png', alt='', style="object-fit: cover;")      
@@ -247,8 +247,8 @@
     Separador
     //- Inicio Tema2.4
     .row
-        #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.4 Consistencia del método, aplicación normativa y documentación de criterios
+      #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.4 Consistencia del método, aplicación normativa y documentación de criterios
     p(data-aos="fade-left") La verificación de costos también debe revisar la consistencia del método utilizado. Esto significa comprobar que la empresa aplica el mismo criterio de acumulación y distribución de costos de manera estable dentro del mismo período y entre períodos comparables, salvo que exista una decisión formal y técnicamente justificada para modificarlo.
     .row.justify-content-center.align-items-stretch.mt-5.mb-5
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -317,7 +317,7 @@
               p.mb-4 Validar si se documentó la razón de la clasificación y asignación utilizada. La evidencia puede incluir formatos de revisión, notas técnicas o informes.
     //- Fin Accordion
     p(data-aos="fade-left") La validación sistemática de estos aspectos contribuye a fortalecer la coherencia metodológica y facilita el control técnico del proceso de clasificación y asignación de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema2/img13.png', alt='', style="object-fit: cover;")      
@@ -327,11 +327,11 @@
     Separador
     //- Inicio Tema2.5
     .row
-        #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.5 Verificación integral de la asignación de costos según políticas organizacionales
+      #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.5 Verificación integral de la asignación de costos según políticas organizacionales
     p(data-aos="fade-left") La verificación integral busca reunir en una sola revisión todos los elementos trabajados en el capítulo: clasificación, costos directos e indirectos, centros de costo, tasas, consistencia del método, documentación y políticas internas.
     p(data-aos="fade-left") El objetivo no consiste en revisar cada punto de manera aislada, sino en confirmar que el sistema de asignación funcione como un conjunto coherente y que las cifras finales de costos estén respaldadas por una lógica técnica uniforme. Esta mirada integral resulta importante porque un error pequeño en una sola parte del proceso puede alterar el resultado final y la interpretación de las desviaciones identificadas en el capítulo anterior.
-    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+    .bloque-texto-g.bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img14.png')})`}"
       )
@@ -354,7 +354,7 @@
               i.fas.fa-check-circle.me-2
               p.mb-0 Finalmente, se consolida un juicio sobre la razonabilidad del costo asignado.
     p(data-aos="fade-left") Este procedimiento puede apoyarse en <b>listas de chequeo, matrices de validación o formatos internos de revisión.</b> Lo importante es que la empresa pueda demostrar qué verificó, con qué evidencia lo hizo y qué hallazgos obtuvo.
-    .row.justify-content-center.align-items-stretch.mt-5.mb-5
+    .row.justify-content-center.align-items-stretch.my-4
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 La verificación integral también permite <b>detectar diferencias entre áreas.</b> Por ejemplo, una planta puede clasificar un insumo como indirecto mientras contabilidad lo registra como material directo, o producción puede trabajar con una base de reparto distinta a la definida por el área de costos.
@@ -402,7 +402,7 @@
                       img(src='@/assets/curso/tema2/img16.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel          
     p(data-aos="fade-left") La aplicación ordenada de estas etapas contribuye a mejorar el control técnico del sistema de costos y fortalece la consistencia de la información utilizada para análisis y toma de decisiones.
-    .row.justify-content-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
         .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-14.p-4.rounded-4           
           .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
@@ -412,7 +412,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 2. Verificación de criterios de clasificación y asignación de costos”, donde se aborda la revisión técnica de errores en la clasificación y asignación de costos dentro de un sistema de costeo empresarial.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio aplicado 2.pdf')" 
+              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_2.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )

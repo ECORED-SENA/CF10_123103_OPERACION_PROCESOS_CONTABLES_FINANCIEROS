@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     p(data-aos="fade-left") En las empresas, el análisis de costos de operación permite transformar una cifra contable en información útil para el control, la evaluación del desempeño y la toma de decisiones. Comparar costos calculados con valores históricos, presupuestados o estándar hace posible reconocer desviaciones, interpretar su magnitud y determinar si responden a comportamientos normales del proceso o a situaciones que requieren corrección. Esta perspectiva resulta importante porque los costos no solo informan cuánto se gastó, sino también qué tan consistente, eficiente y sostenible está siendo la operación de la organización.      
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch
       .col-11.col-md-12.col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .rounded-3.overflow-hidden.h-100
           .row.g-0.align-items-stretch.h-100

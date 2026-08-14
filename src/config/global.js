@@ -230,7 +230,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/123103_CF10_DU.pdf',
+        download: 'downloads/123103_CF10_DU.zip',
       },
       {
         icono: 'fas fa-download',

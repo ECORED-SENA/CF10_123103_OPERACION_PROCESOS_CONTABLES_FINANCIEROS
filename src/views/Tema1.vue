@@ -18,12 +18,12 @@
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Por esta razón, el análisis inicial de costos no debe entenderse como una simple revisión numérica, sino como <b>una actividad de control que conecta el costeo con la evaluación del desempeño operativo y financiero de la organización</b> (Horngren, 2012).
-    p(data-aos="fade-left") En el entorno empresarial, este análisis resulta relevante porque muchos problemas de rentabilidad no aparecen primero en las ventas, sino en variaciones no detectadas en materiales, mano de obra o costos indirectos. Un aumento leve en el costo unitario, repetido durante varios períodos, puede terminar afectando el margen, la competitividad y la capacidad de decisión. 
+    p.mb-0(data-aos="fade-left") En el entorno empresarial, este análisis resulta relevante porque muchos problemas de rentabilidad no aparecen primero en las ventas, sino en variaciones no detectadas en materiales, mano de obra o costos indirectos. Un aumento leve en el costo unitario, repetido durante varios períodos, puede terminar afectando el margen, la competitividad y la capacidad de decisión. 
     Separador
     //- Inicio Tema1.1
-    .row.mt-5
-        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.1 Costos históricos y presupuestos de operación
+    .row
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.1 Costos históricos y presupuestos de operación
     p(data-aos="fade-left") <b>Los costos históricos</b> corresponden a los costos realmente incurridos en un período ya ejecutado. Se obtienen a partir de <b>registros contables, requisiciones, nómina, reportes de producción</b>, comprobantes de gastos indirectos y demás fuentes documentales de la operación.
     .row(data-aos="fade-left")
       .col-lg-5.mb-3.mb-lg-0
@@ -133,8 +133,8 @@
     Separador
     //- Inicio Tema1.2
     .row
-        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.2 Costos estándar y márgenes esperados
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.2 Costos estándar y márgenes esperados
     .row.justify-content-center.align-items-stretch.mb-5
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
@@ -271,7 +271,7 @@
                 td Desfavorable              
     //- FinTabla                    
     p(data-aos="fade-left") La comparación entre bases estándar y reales facilita la identificación de desviaciones específicas relacionadas con precios, cantidades, tiempos o comportamiento de costos indirectos, fortaleciendo el control operativo y financiero.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema1/img11.png', alt='', style="object-fit: cover;")      
@@ -282,8 +282,8 @@
     Separador
     //- Inicio Tema1.3
     .row
-        #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.3 Indicadores básicos de variación de costos
+      #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.3 Indicadores básicos de variación de costos
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
@@ -347,7 +347,7 @@
               p.mb-0 La variación porcentual permite dimensionar la importancia relativa de la diferencia.
         p.mb-0 Una desviación de $ 200.000 puede ser baja o alta dependiendo del tamaño del costo base. Por esta razón, revisar únicamente el valor absoluto puede conducir a interpretaciones incompletas (Horngren, 2012).
     p(data-aos="fade-left") También resultan útiles los índices de eficiencia y algunas ratios de costos. Por ejemplo, una empresa puede relacionar el costo real frente al estándar o el costo de una línea frente a sus ingresos.
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-12.col-lg-10
         .banner-costos.rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
@@ -362,7 +362,7 @@
       .col-11.col-md-12.col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .rounded-3.overflow-hidden.h-100
           .row.g-0.align-items-stretch.h-100
-            P Del mismo modo, ratios como costo de materiales sobre costo total o CIF sobre ingresos ayudan a comprender la estructura del costo y a detectar cambios que quizá no se identifican fácilmente en el total general (García Colín, 2014).
+            P.mb-4 Del mismo modo, ratios como costo de materiales sobre costo total o CIF sobre ingresos ayudan a comprender la estructura del costo y a detectar cambios que quizá no se identifican fácilmente en el total general (García Colín, 2014).
             .col-12.col-md-5.d-flex
               figure.mb-0.w-100
                 img(src="@/assets/curso/tema1/img16.png", alt="", style="width: 100%; height: 100%; object-fit: cover; min-height: 250px;")                            
@@ -413,7 +413,7 @@
                 td Revisar el peso de los indirectos en el costo.          
     //- FinTabla
     p(data-aos="fade-left") La información organizada en estos indicadores facilita el seguimiento de tendencias, la detección de desviaciones y la evaluación comparativa entre períodos, productos o procesos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema1/img18.png', alt='', style="object-fit: cover;")      
@@ -424,8 +424,8 @@
     Separador
     //- Inicio Tema1.4
     .row
-        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.4 Comparación de períodos, tendencias y desviaciones
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.4 Comparación de períodos, tendencias y desviaciones
     p(data-aos="fade-left") La comparación entre períodos es una práctica necesaria para evitar que el análisis de costos se limite a una fotografía aislada. Un solo período puede contener comportamientos atípicos asociados al volumen, a los precios, a compras extraordinarias o a situaciones operativas específicas.
     p(data-aos="fade-right") Por esta razón, revisar dos o más períodos permite identificar si el costo presenta <b>estabilidad, crecimiento, reducción o fluctuaciones recurrentes</b>. En la empresa, esta comparación ayuda a distinguir entre una desviación puntual y una tendencia que empieza a consolidarse y que puede afectar de manera sostenida la operación (Horngren, 2012). En la práctica, la comparación de períodos puede realizarse:
     //- Inicio Tarjetas
@@ -534,9 +534,9 @@
         p.mb-0 Si la empresa no analiza esa secuencia, podría asumir que se trata de variaciones aisladas; sin embargo, la comparación de períodos permite identificar que ya existe un patrón que requiere revisión.
     Separador
     //- Inicio Tema1.5
-    .row.mt-5
-        #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.5 Análisis inicial de causas y documentación de resultados
+    .row
+      #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.5 Análisis inicial de causas y documentación de resultados
     p(data-aos="fade-left") A continuación, se presenta un pódcast sobre el análisis inicial de desviaciones en costos y su importancia dentro del control empresarial:        
     //- Inicio Podcast
     .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-4(data-aos="fade-left")
@@ -604,7 +604,7 @@
                       img(src='@/assets/curso/tema1/img23.png', alt='', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel
     p(data-aos="fade-left") La organización sistemática de esta información contribuye a mejorar la trazabilidad del análisis y facilita posteriores procesos de revisión, control y toma de decisiones.
-    .row.justify-content-center.align-items-stretch.mb-3.g-0.bg-color-2(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.bg-color-2(data-aos="fade-left")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema1/img24.png', alt='', style="object-fit: cover;")      
@@ -612,7 +612,7 @@
         p.fw-bold Ejemplo aplicado
         p Una empresa encuentra que el costo real de un lote fue 9 % superior al costo estándar. Al revisar la información, identifica que el precio del insumo principal se mantuvo estable, pero el consumo real superó el estándar en 12 %. 
         p.mb-0 La causa probable inicial no estaría en compras, sino en la cantidad consumida. Si además el reporte de producción registra reprocesos por fallas de mezcla, la explicación preliminar adquiere mayor consistencia y puede documentarse como una desviación operativa asociada a desperdicio o ineficiencia del proceso.
-    .row.justify-content-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
         .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-14.p-4.rounded-4           
           .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
@@ -622,7 +622,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 1. Comparación y análisis inicial de costos de operación”, donde se aborda el análisis comparativo entre costos presupuestados, estándar y reales en una empresa de conservas.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio aplicado 1.pdf')" 
+              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_1.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )

@@ -8,7 +8,7 @@
       h1 Técnicas de análisis y alternativas de optimización de costos
 
     p(data-aos="fade-left") Después de comparar costos, verificar criterios de clasificación y consolidar hallazgos, la empresa necesita avanzar hacia una lectura más explicativa de las desviaciones y hacia la identificación de acciones que permitan mejorar el desempeño económico y operativo.
-    .row.justify-content-center.align-items-stretch.mt-5.mb-3
+    .row.justify-content-center.align-items-stretch.mt-4
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 En este punto, el análisis de costos deja de centrarse únicamente en determinar cuánto varió el costo y pasa a identificar por qué ocurrió la variación, qué <b>impacto genera sobre la operación</b> y qué <b>acciones pueden implementarse para corregir o mejorar la situación detectada.</b> Esta transición resulta importante porque la revisión de costos solo genera valor real cuando se convierte en base para decisiones de optimización, priorización e intervención (Horngren, 2012).
@@ -23,8 +23,8 @@
     Separador
     //- Inicio Tema4.1
     .row
-        #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.1 Técnicas de análisis de desviaciones y variaciones
+      #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 4.1 Técnicas de análisis de desviaciones y variaciones
     p(data-aos="fade-left") El análisis de desviaciones y variaciones busca explicar por qué un costo real se apartó de un <b>referente histórico, presupuestado o estándar.</b> La diferencia monetaria constituye únicamente el punto de partida; el verdadero valor del análisis consiste en descomponer esa variación y relacionarla con sus posibles causas. Para ello, pueden utilizarse varias técnicas complementarias:          
     .row.bg-color-1(data-aos="fade-left")
       .col-12
@@ -54,7 +54,7 @@
                     .bg-color-13.tarjeta.p-4.h-100.text-center.bordes.d-flex.flex-column.align-items-center
                       img(src='@/assets/curso/tema4/tarjeta01_6.svg', alt='', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
                       p Herramientas estadísticas básicas, como la regresión. 
-            p.mt-5.mb-5 Cada una aporta una mirada distinta y, en conjunto, ayudan a formular conclusiones técnicas mejor sustentadas (Horngren, 2012). La descomposición constituye una de las técnicas más útiles porque separa la variación total en componentes más fáciles de interpretar. Por ejemplo, una variación en materiales puede explicarse por precio y por cantidad.
+            p.mt-4 Cada una aporta una mirada distinta y, en conjunto, ayudan a formular conclusiones técnicas mejor sustentadas (Horngren, 2012). La descomposición constituye una de las técnicas más útiles porque separa la variación total en componentes más fáciles de interpretar. Por ejemplo, una variación en materiales puede explicarse por precio y por cantidad.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10
         .rounded-4.overflow-hidden
@@ -101,7 +101,7 @@
         p.mb-0 La revisión de tendencias y la regresión simple permiten valorar si la variación responde a un patrón recurrente. Por ejemplo, si el costo unitario aumenta cada mes a medida que disminuye el volumen producido, la empresa puede inferir que existe una relación entre el nivel de actividad y el costo unitario, especialmente por el peso de los costos indirectos fijos.
     p(data-aos="fade-left") La regresión básica no siempre resulta necesaria en análisis pequeños, pero puede ser útil cuando la empresa necesita evaluar relaciones entre:        
     //- Inicio Tarjetas
-    .row.justify-content-center.mt-5(data-aos="fade-left")      
+    .row.justify-content-center.my-4(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow.rounded-4.bg-color-5.d-flex.flex-column.align-items-center
           figure.mb-4
@@ -172,7 +172,7 @@
                 p Permite identificar relaciones entre el costo y variables explicativas cuando existen suficientes datos para análisis cuantitativos.
     //- Cierres Pestanas horizontales
     p La utilización combinada de estas técnicas fortalece la interpretación de los hallazgos y mejora la capacidad de la empresa para formular acciones de control y optimización de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema4/img5.png', alt='', style="object-fit: cover;")      
@@ -182,8 +182,8 @@
     Separador
     //- Inicio Tema4.2
     .row
-        #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.2 Alternativas de optimización de costos
+      #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 4.2 Alternativas de optimización de costos
     p(data-aos="fade-left") Una vez identificadas las desviaciones y sus causas probables, la empresa debe valorar qué alternativas pueden reducir el costo o mejorar su comportamiento sin afectar de manera negativa la calidad, el cumplimiento o la operación.
     p(data-aos="fade-right") <b>Optimizar costos</b> no significa recortar indiscriminadamente; significa mejorar el uso de los recursos para obtener un mejor <b>resultado económico y operativo.</b> En algunas situaciones, la optimización se logra reduciendo desperdicios; en otras, ajustando tiempos, renegociando condiciones de compra, actualizando bases de asignación o rediseñando actividades con bajo valor agregado (Hansen, 2007).
     p(data-aos="fade-left") La identificación de oportunidades de optimización debe partir del análisis y no de intuiciones generales. Por ejemplo:
@@ -254,8 +254,8 @@
           .row(titulo="Asignación débil de indirectos")
               p.mb-4 Actualizar bases de reparto y centros de costo. Aunque el impacto monetario puede ser indirecto, mejora la confiabilidad del costo y presenta bajo impacto operativo inicial.
     //- Fin Accordion
-    p(data-aos="fade-left") La relación entre problema identificado y alternativa de optimización facilita priorizar acciones de mejora con mayor sustento técnico y operativo.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    p.mb-4(data-aos="fade-left") La relación entre problema identificado y alternativa de optimización facilita priorizar acciones de mejora con mayor sustento técnico y operativo.
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema4/img8.png', alt='', style="object-fit: cover;")      
@@ -276,8 +276,8 @@
     Separador
     //- Inicio Tema4.3
     .row
-        #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.3 Análisis de escenarios de costos y beneficios
+      #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 4.3 Análisis de escenarios de costos y beneficios
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
@@ -304,8 +304,8 @@
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
               p.mb-0 ¿Qué tan sensible es el costo unitario frente al volumen producido?
-    p.mt-4.mb-5(data-aos="fade-left") El análisis de sensibilidad complementa esta lectura porque permite identificar cuánto se altera el costo o el beneficio cuando cambia una variable específica.
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    p.my-4(data-aos="fade-left") El análisis de sensibilidad complementa esta lectura porque permite identificar cuánto se altera el costo o el beneficio cuando cambia una variable específica.
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-12.col-lg-10
         .rounded-4.overflow-hidden
           .row.g-0.align-items-stretch
@@ -318,7 +318,7 @@
               p Esta operación ayuda a que la empresa no evalúe la mejora únicamente desde la lógica técnica, sino también desde el efecto económico esperado (García Colín, 2014).
             .col-12.col-md-5.col-lg-3.banner-img-container.d-flex.justify-content-center.align-items-center.bg-color-19
               img.img-fluid(src="@/assets/curso/tema4/img11.svg" alt="" style="width: 200px")
-    p(data-aos="fade-left") La construcción de escenarios permite valorar posibles cambios en el comportamiento del costo y apoyar decisiones más informadas frente a condiciones futuras de operación:
+    p.mb-0(data-aos="fade-left") La construcción de escenarios permite valorar posibles cambios en el comportamiento del costo y apoyar decisiones más informadas frente a condiciones futuras de operación:
     //- Pestanas horizontales
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
@@ -348,7 +348,7 @@
                 p Considera un costo unitario estimado de $ 7.480 para 3.000 unidades, con un impacto total de $ 22.440.000. Representa un aumento de costos por incremento de insumos y baja eficiencia operativa.
     //- Cierres Pestanas horizontales
     p(data-aos="fade-left") La comparación entre escenarios permite valorar riesgos y oportunidades antes de implementar acciones de mejora, fortaleciendo la toma de decisiones relacionadas con costos y rentabilidad.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema4/img12.png', alt='', style="object-fit: cover;")      
@@ -358,8 +358,8 @@
     Separador
     //- Inicio Tema4.4
     .row
-        #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.4 Criterios de priorización de acciones de mejora
+      #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 4.4 Criterios de priorización de acciones de mejora
     p(data-aos="fade-left") No todas las oportunidades de mejora pueden ejecutarse al mismo tiempo ni producen el mismo efecto sobre la operación. Por esta razón, <b>la empresa necesita priorizar.</b> Priorizar significa <b>ordenar las acciones posibles</b> según criterios que permitan decidir cuáles deben implementarse primero, cuáles pueden esperar y cuáles no resultan convenientes en el momento actual.
     p(data-aos="fade-left") En la <b>gestión de costos</b>, esta priorización resulta importante porque evita dispersar recursos en múltiples iniciativas menores y concentra el esfuerzo en aquellas alternativas con mejor relación entre <b>impacto, viabilidad y alineación</b> con los objetivos de la organización. Entre los criterios de priorización más frecuentes se encuentran:
     .row.bg-color-1(data-aos="fade-left")
@@ -432,7 +432,7 @@
               p.mb-4 Tiene impacto moderado, pero alta facilidad de implementación, bajos requerimientos operativos y bajo riesgo. Obtiene el puntaje más alto, con 23 puntos.          
     //- Fin Accordion
     p(data-aos="fade-left") La utilización de criterios comparativos permite priorizar acciones de mejora de manera más objetiva y facilita la toma de decisiones relacionadas con optimización de costos.
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-2(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema4/img17.png', alt='', style="object-fit: cover;")      
@@ -456,8 +456,8 @@
     Separador
     //- Inicio Tema4.5
     .row
-        #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.5 <i>Benchmarking,</i> mejores prácticas, viabilidad e impacto operativo
+      #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 4.5 <i>Benchmarking,</i> mejores prácticas, viabilidad e impacto operativo
     .row.justify-content-center.align-items-stretch.mb-3
       .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-3.p-4.rounded-4.h-100.d-flex.align-items-center
@@ -509,9 +509,9 @@
             p El impacto operativo constituye un filtro esencial dentro de esta evaluación. Una acción puede reducir costos, pero al mismo tiempo deteriorar <b>tiempos de entrega, aumentar reprocesos o afectar la calidad.</b> Por esta razón, la evaluación no debe concentrarse únicamente en el ahorro esperado. También es importante analizar cómo la medida implementada puede afectar el flujo de trabajo, la utilización de los equipos, la carga asignada al personal, la continuidad del proceso y la percepción del cliente interno o externo frente al servicio o producto generado.
         p Una mejora técnicamente adecuada en el análisis puede resultar inconveniente si su impacto operativo es negativo o difícil de sostener (Horngren, 2012). La comparación con referentes internos o externos permite valorar oportunidades de mejora y analizar qué prácticas pueden adaptarse de manera viable a las condiciones reales de la operación: 
     //- Slideshow
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-right")
+    .bg-full-width.bg-fondo-slider.mb-4
+      .p-4.p-md-5(data-aos="fade-right")
+        SlyderA(tipo="b").bg-white.p-4.tarjeta
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -548,7 +548,7 @@
               h4 Impacto operativo
               p Permite analizar si la mejora afecta tiempos, calidad, continuidad del proceso o funcionamiento general de la operación.
     //- Fin Slideshow
-    p(data-aos="fade-left") La evaluación conjunta de estos elementos facilita seleccionar alternativas de mejora más sostenibles y alineadas con las condiciones reales de la empresa.    
+    p.mb-4(data-aos="fade-left") La evaluación conjunta de estos elementos facilita seleccionar alternativas de mejora más sostenibles y alineadas con las condiciones reales de la empresa.    
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-2(data-aos="fade-right")
       .col-12.col-md-5.d-flex
         figure.mb-0.w-100
@@ -557,7 +557,7 @@
         p.fw-bold Ejemplo aplicado
         p Una empresa de productos de limpieza compara su consumo de envases por unidad con otra línea interna de mejor desempeño y encuentra que su desperdicio es 1,8 puntos porcentuales más alto.
         p.mb-0 Posteriormente, revisa una práctica de control visual utilizada en otra planta del sector y concluye que puede adaptarla sin realizar grandes inversiones. Sin embargo, antes de implementarla, la empresa verifica que el cambio no afecte el ritmo de envasado ni genere demoras en despacho. Esta evaluación permite reconocer que el <i>benchmarking</i> y las mejores prácticas solo resultan útiles cuando se acompañan de análisis de viabilidad e impacto operativo.
-    .row.justify-content-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
         .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-14.p-4.rounded-4           
           .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
@@ -567,7 +567,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 4. Técnicas de análisis y alternativas de optimización de costos”, donde se aborda el análisis de desviaciones en costos y la evaluación de alternativas de mejora dentro de un proceso productivo. 
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio aplicado 4.pdf')" 
+              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_4.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )
