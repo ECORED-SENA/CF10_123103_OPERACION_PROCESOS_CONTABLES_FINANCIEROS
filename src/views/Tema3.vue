@@ -528,7 +528,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 3. Reporte y registro de hallazgos en la verificación de costos”, donde se aborda la identificación, organización y consolidación de hallazgos relacionados con desviaciones y errores en sistemas de costos empresariales.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_3.pdf')" 
+              :href="obtenerLink('/downloads/Anexo_Ejercicio_aplicado_3.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )

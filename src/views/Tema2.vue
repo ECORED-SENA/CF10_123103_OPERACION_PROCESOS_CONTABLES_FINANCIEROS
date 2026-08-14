@@ -412,7 +412,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 2. Verificación de criterios de clasificación y asignación de costos”, donde se aborda la revisión técnica de errores en la clasificación y asignación de costos dentro de un sistema de costeo empresarial.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_2.pdf')" 
+              :href="obtenerLink('/downloads/Anexo_Ejercicio_aplicado_2.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )

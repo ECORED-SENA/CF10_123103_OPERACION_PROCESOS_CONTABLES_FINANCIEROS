@@ -448,7 +448,7 @@
             p.mb-0 Se invita a revisar el documento “Ejercicio aplicado 5. Propuestas, socialización e implementación de mejoras de costos”, donde se aborda la formulación e implementación de acciones correctivas para reducir desviaciones en costos operativos dentro de una empresa de productos de aseo.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Anexos/Anexo_Ejercicio_aplicado_5.pdf')" 
+              :href="obtenerLink('/downloads/Anexo_Ejercicio_aplicado_5.pdf')" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )
